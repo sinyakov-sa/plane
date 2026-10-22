@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+  <style>
+    text{font-family:Arial,sans-serif;fill:#111} .t{font-size:25px;font-weight:700}.s{font-size:18px}.l{stroke:#111;stroke-width:3;fill:none}.d{stroke:#555;stroke-width:2;stroke-dasharray:8 7;fill:none}
+  </style>
+  <rect width="1200" height="520" fill="white"/>
+  <text x="35" y="45" class="t">Rev A.32 — прямой M4 узел центроплан ↔ консоль (схема)</text>
+  <text x="36" y="82" class="s">Вид вдоль оси болта. Схема не в масштабе.</text>
+
+  <line x1="105" y1="275" x2="1090" y2="275" class="d"/>
+  <text x="915" y="258" class="s">единая ось M4</text>
+
+  <polygon points="105,236 150,236 150,314 105,314" fill="#bbb" stroke="#111" stroke-width="2"/>
+  <text x="86" y="350" class="s">головка</text>
+
+  <rect x="150" y="190" width="55" height="170" fill="#e5c38a" stroke="#111" stroke-width="2"/>
+  <text x="147" y="390" class="s">O035</text>
+
+  <rect x="205" y="205" width="55" height="140" fill="#d9b77b" stroke="#111" stroke-width="2"/>
+  <text x="180" y="420" class="s">накладка O035</text>
+
+  <rect x="260" y="185" width="250" height="180" fill="#c89e66" stroke="#111" stroke-width="2"/>
+  <text x="285" y="395" class="s">буковый распорный блок 20×20</text>
+
+  <polygon points="510,205 570,198 570,352 510,345" fill="#d9b77b" stroke="#111" stroke-width="2"/>
+  <text x="485" y="420" class="s">переходная накладка O000</text>
+
+  <rect x="570" y="190" width="55" height="170" fill="#e5c38a" stroke="#111" stroke-width="2"/>
+  <text x="567" y="390" class="s">O000</text>
+
+  <line x1="625" y1="145" x2="625" y2="405" stroke="#111" stroke-width="5"/>
+  <text x="605" y="135" class="s">стык</text>
+
+  <rect x="625" y="190" width="55" height="170" fill="#e5c38a" stroke="#111" stroke-width="2"/>
+  <text x="625" y="390" class="s">C595</text>
+
+  <rect x="680" y="205" width="55" height="140" fill="#d9b77b" stroke="#111" stroke-width="2"/>
+  <text x="658" y="420" class="s">накладка C595</text>
+
+  <rect x="735" y="185" width="190" height="180" fill="#c89e66" stroke="#111" stroke-width="2"/>
+  <text x="747" y="395" class="s">буковый блок гайки</text>
+
+  <polygon points="925,240 970,225 1015,240 1015,310 970,325 925,310" fill="#aaa" stroke="#111" stroke-width="2"/>
+  <text x="914" y="350" class="s">закладная гайка</text>
+
+  <rect x="150" y="268" width="865" height="14" rx="7" fill="#aaa" stroke="#111" stroke-width="2"/>
+  <text x="440" y="248" class="s">M4×55, прямой; отверстия Ø4,5</text>
+
+  <rect x="300" y="105" width="390" height="42" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="315" y="134" class="s">MAIN_JOINER_20SQ — отдельно, НЕ СВЕРЛИТСЯ</text>
+</svg>

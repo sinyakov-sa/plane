@@ -1,0 +1,39 @@
+{
+  "revision": "A.36",
+  "base_revision": "A.35",
+  "step_roundtrip_read": true,
+  "step_roundtrip_transfer": true,
+  "panel_retention_joint": "PASS",
+  "material_metadata": "PASS",
+  "servo_joiner_clearance_inherited_A31": "PASS",
+  "FACETED_BREP": 0,
+  "TRIANGULATED_FACE_SET": 0,
+  "TESSELLATED_SOLID": 0,
+  "status": "PASS",
+  "design_hold": "Bench-test joiner/retention coupon and distributed full-wing load before flight",
+  "spar_web_rib_clearance_audit": {
+    "status": "PASS",
+    "pairs_checked": 80,
+    "remaining": 0
+  },
+  "control_surface_covering_audit": {
+    "status": "PASS",
+    "new_parts": 18,
+    "notched_aileron_ribs": 14,
+    "added_mass_g": 42.278906076615456,
+    "skin_seat_allowance_mm": 0.050000000000000044,
+    "rear_web_total_slot_allowance_mm": 0.10000000000000009
+  },
+  "control_surface_reference_envelopes": {
+    "status": "PASS",
+    "solid_reference_bodies_in_step": 0,
+    "removed": 6
+  },
+  "aileron_full_sheeting": {
+    "status": "PASS",
+    "skin_thickness_mm": 1.0,
+    "rib_skin_seat_mm": 1.05,
+    "skin_mass_g": 19.03864586196573,
+    "roundtrip": "PASS"
+  }
+}

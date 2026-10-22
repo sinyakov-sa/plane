@@ -1,0 +1,43 @@
+{
+  "revision": "A.36",
+  "base_revision": "A.35",
+  "status": "PASS",
+  "construction": {
+    "ailerons": "full 1.0 mm balsa upper/lower sheeting over entire aerodynamic surface; no aileron film; no separate D-box skins or rear web",
+    "flaps": "unchanged: open frame + 0.08 mm film",
+    "skin_thickness_mm": 1.0,
+    "rib_skin_seat_mm": 1.05,
+    "assembly_allowance_mm": 0.05
+  },
+  "new_parts": [
+    "AILERON_FULL_SKIN_UPPER_L",
+    "AILERON_FULL_SKIN_LOWER_L",
+    "AILERON_FULL_SKIN_UPPER_R",
+    "AILERON_FULL_SKIN_LOWER_R"
+  ],
+  "removed_parts": [
+    "FILM_AILERON_UPPER_L",
+    "FILM_AILERON_LOWER_L",
+    "AILERON_DBOX_SKIN_UPPER_L",
+    "AILERON_DBOX_SKIN_LOWER_L",
+    "AILERON_DBOX_REAR_WEB_L",
+    "FILM_AILERON_UPPER_R",
+    "FILM_AILERON_LOWER_R",
+    "AILERON_DBOX_SKIN_UPPER_R",
+    "AILERON_DBOX_SKIN_LOWER_R",
+    "AILERON_DBOX_REAR_WEB_R"
+  ],
+  "roundtrip": {
+    "status": "PASS",
+    "root": "MG20_WING_A36_SMOOTH_BREP",
+    "missing_new_parts": [],
+    "old_parts_remaining": [],
+    "balsa_density_g_mm3": 0.00016
+  },
+  "new_skin_mass_g": 19.03864586196573,
+  "forbidden_faceted_entities": {
+    "FACETED_BREP": 0,
+    "TRIANGULATED_FACE_SET": 0,
+    "TESSELLATED_SOLID": 0
+  }
+}

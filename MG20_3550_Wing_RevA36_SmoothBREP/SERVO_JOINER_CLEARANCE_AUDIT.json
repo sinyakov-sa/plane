@@ -1,0 +1,156 @@
+{
+  "revision": "A.31",
+  "fix": "outer-flap servo forward spanwise rail removed; JOINER_SYSTEM untouched; two 8x6 chordwise side rails + one aft 6x6 spanwise rail per side",
+  "OF_bay": "O230-O350, global 825..945 mm, centre 885 mm",
+  "backing_opening_mm": [
+    54.0,
+    42.0
+  ],
+  "cover_screw_points_mm_relative_to_hatch_centre": [
+    [
+      -30,
+      -10
+    ],
+    [
+      30,
+      -10
+    ],
+    [
+      25,
+      24.5
+    ],
+    [
+      -25,
+      24.5
+    ]
+  ],
+  "geometry_checks": [
+    {
+      "servo_member": "SERVO_SUPPORT_RAIL_SIDE_INBD_OF_R",
+      "joiner_member": "JOINER_O_RAIL_LOWER_R_R",
+      "intersection_volume_mm3": 0.0,
+      "closest_distance_mm": 0.09153050084851648
+    },
+    {
+      "servo_member": "SERVO_SUPPORT_RAIL_SIDE_INBD_OF_R",
+      "joiner_member": "JOINER_O_SHOE_LOWER_R",
+      "intersection_volume_mm3": 0.0,
+      "closest_distance_mm": 0.2426492703925402
+    },
+    {
+      "servo_member": "SERVO_SUPPORT_RAIL_SIDE_OUTBD_OF_R",
+      "joiner_member": "JOINER_O_RAIL_LOWER_R_R",
+      "intersection_volume_mm3": 0.0,
+      "closest_distance_mm": 0.0892114283976184
+    },
+    {
+      "servo_member": "SERVO_SUPPORT_RAIL_SIDE_OUTBD_OF_R",
+      "joiner_member": "JOINER_O_SHOE_LOWER_R",
+      "intersection_volume_mm3": 0.0,
+      "closest_distance_mm": 0.1634418843958407
+    },
+    {
+      "servo_member": "SERVO_SUPPORT_RAIL_AFT_OF_R",
+      "joiner_member": "JOINER_O_RAIL_LOWER_R_R",
+      "intersection_volume_mm3": 0.0,
+      "closest_distance_mm": 43.776512999546064
+    },
+    {
+      "servo_member": "SERVO_SUPPORT_RAIL_AFT_OF_R",
+      "joiner_member": "JOINER_O_SHOE_LOWER_R",
+      "intersection_volume_mm3": 0.0,
+      "closest_distance_mm": 43.79538399034104
+    },
+    {
+      "servo_member": "SERVO_SUPPORT_RAIL_SIDE_INBD_OF_R",
+      "other_member": "SERVO_MOUNT_BLOCK_FWD_OF_R",
+      "intersection_volume_mm3": 0.0,
+      "closest_distance_mm": 1.9999999999997944
+    },
+    {
+      "servo_member": "SERVO_SUPPORT_RAIL_SIDE_INBD_OF_R",
+      "other_member": "SERVO_MOUNT_BLOCK_AFT_OF_R",
+      "intersection_volume_mm3": 0.0,
+      "closest_distance_mm": 1.9999999999997944
+    },
+    {
+      "servo_member": "SERVO_SUPPORT_RAIL_SIDE_OUTBD_OF_R",
+      "other_member": "SERVO_MOUNT_BLOCK_FWD_OF_R",
+      "intersection_volume_mm3": 0.0,
+      "closest_distance_mm": 2.0000000000000213
+    },
+    {
+      "servo_member": "SERVO_SUPPORT_RAIL_SIDE_OUTBD_OF_R",
+      "other_member": "SERVO_MOUNT_BLOCK_AFT_OF_R",
+      "intersection_volume_mm3": 0.0,
+      "closest_distance_mm": 1.9999999999999076
+    },
+    {
+      "servo_member": "SERVO_SUPPORT_RAIL_SIDE_INBD_OF_L",
+      "joiner_member": "JOINER_O_RAIL_LOWER_R_L",
+      "intersection_volume_mm3": 0.0,
+      "closest_distance_mm": 0.09153050084851648
+    },
+    {
+      "servo_member": "SERVO_SUPPORT_RAIL_SIDE_INBD_OF_L",
+      "joiner_member": "JOINER_O_SHOE_LOWER_L",
+      "intersection_volume_mm3": 0.0,
+      "closest_distance_mm": 0.24264927039254006
+    },
+    {
+      "servo_member": "SERVO_SUPPORT_RAIL_SIDE_OUTBD_OF_L",
+      "joiner_member": "JOINER_O_RAIL_LOWER_R_L",
+      "intersection_volume_mm3": 0.0,
+      "closest_distance_mm": 0.0892114283976184
+    },
+    {
+      "servo_member": "SERVO_SUPPORT_RAIL_SIDE_OUTBD_OF_L",
+      "joiner_member": "JOINER_O_SHOE_LOWER_L",
+      "intersection_volume_mm3": 0.0,
+      "closest_distance_mm": 0.16344188439584081
+    },
+    {
+      "servo_member": "SERVO_SUPPORT_RAIL_AFT_OF_L",
+      "joiner_member": "JOINER_O_RAIL_LOWER_R_L",
+      "intersection_volume_mm3": 0.0,
+      "closest_distance_mm": 43.776512999546064
+    },
+    {
+      "servo_member": "SERVO_SUPPORT_RAIL_AFT_OF_L",
+      "joiner_member": "JOINER_O_SHOE_LOWER_L",
+      "intersection_volume_mm3": 0.0,
+      "closest_distance_mm": 43.79538399034104
+    },
+    {
+      "servo_member": "SERVO_SUPPORT_RAIL_SIDE_INBD_OF_L",
+      "other_member": "SERVO_MOUNT_BLOCK_FWD_OF_L",
+      "intersection_volume_mm3": 0.0,
+      "closest_distance_mm": 1.9999999999997944
+    },
+    {
+      "servo_member": "SERVO_SUPPORT_RAIL_SIDE_INBD_OF_L",
+      "other_member": "SERVO_MOUNT_BLOCK_AFT_OF_L",
+      "intersection_volume_mm3": 0.0,
+      "closest_distance_mm": 1.9999999999997944
+    },
+    {
+      "servo_member": "SERVO_SUPPORT_RAIL_SIDE_OUTBD_OF_L",
+      "other_member": "SERVO_MOUNT_BLOCK_FWD_OF_L",
+      "intersection_volume_mm3": 0.0,
+      "closest_distance_mm": 2.0000000000000213
+    },
+    {
+      "servo_member": "SERVO_SUPPORT_RAIL_SIDE_OUTBD_OF_L",
+      "other_member": "SERVO_MOUNT_BLOCK_AFT_OF_L",
+      "intersection_volume_mm3": 0.0,
+      "closest_distance_mm": 1.9999999999999076
+    }
+  ],
+  "maximum_unintended_intersection_volume_mm3": 0.0,
+  "minimum_checked_joiner_clearance_mm": 0.0892114283976184,
+  "old_forward_rails_absent": true,
+  "new_side_rails_present": true,
+  "roundtrip_read": true,
+  "roundtrip_transfer": true,
+  "status": "PASS"
+}

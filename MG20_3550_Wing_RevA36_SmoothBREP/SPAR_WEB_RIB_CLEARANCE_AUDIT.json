@@ -1,0 +1,55 @@
+{
+  "revision": "A.33",
+  "base_revision": "A.32",
+  "status": "PASS",
+  "a32_detected_web_rib_intersections": 80,
+  "ordinary_web_rib_pairs_repaired": 72,
+  "tube_splice_strap_rib_pairs_repaired": 8,
+  "remaining_checked_intersections": [],
+  "remaining_checked_intersection_count": 0,
+  "material_roundtrip": {
+    "LEADING_EDGE_C_R": {
+      "density_g_mm3": 0.00016,
+      "expected_g_mm3": 0.00016,
+      "status": "PASS"
+    },
+    "RET_C595_DOUBLER_R": {
+      "density_g_mm3": 0.0007,
+      "expected_g_mm3": 0.0007,
+      "status": "PASS"
+    },
+    "MAIN_CAP_TOP_1_R": {
+      "density_g_mm3": 0.00045000000000000004,
+      "expected_g_mm3": 0.00045,
+      "status": "PASS"
+    },
+    "RET_COMPRESSION_SPACER_O000_O035_R": {
+      "density_g_mm3": 0.0007199999999999999,
+      "expected_g_mm3": 0.00072,
+      "status": "PASS"
+    },
+    "MAIN_JOINER_20SQ_R": {
+      "density_g_mm3": 0.0027,
+      "expected_g_mm3": 0.0027,
+      "status": "PASS"
+    },
+    "RET_M4x55_BOLT_R": {
+      "density_g_mm3": 0.00785,
+      "expected_g_mm3": 0.00785,
+      "status": "PASS"
+    }
+  },
+  "forbidden_faceted_entities": {
+    "FACETED_BREP": 0,
+    "TRIANGULATED_FACE_SET": 0,
+    "TESSELLATED_SOLID": 0
+  },
+  "step_roundtrip": "PASS",
+  "root_names": [
+    "MG20_WING_A33_SMOOTH_BREP"
+  ],
+  "method": {
+    "ordinary_webs": "Boolean subtract rib bodies from wall solids so wall panels terminate at rib faces",
+    "tube_end_splice_straps": "Boolean subtract the two 1 mm splice straps from C445/O230 diaphragm ribs so the straps remain continuous"
+  }
+}

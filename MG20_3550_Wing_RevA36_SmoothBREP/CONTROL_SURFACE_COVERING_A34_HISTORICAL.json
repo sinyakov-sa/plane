@@ -1,0 +1,402 @@
+{
+  "revision": "A.34",
+  "base_revision": "A.33",
+  "status": "PASS",
+  "construction": {
+    "center_flaps": "open balsa frame + 0.08 mm polyester heat-shrink film",
+    "outer_flaps": "open balsa frame + 0.08 mm polyester heat-shrink film",
+    "ailerons": "open balsa frame + 25 mm nose D-box: 1.0 mm upper/lower balsa skins + 1.5 mm rear web + 0.08 mm polyester film",
+    "reference_envelopes": "six REF_*_ENVELOPE_* bodies, density 0, geometry reference only",
+    "skin_seat_allowance_mm": 0.050000000000000044,
+    "rear_web_total_slot_allowance_mm": 0.10000000000000009
+  },
+  "new_parts": 18,
+  "notched_ribs": [
+    {
+      "original_volume_mm3": 769.082269333857,
+      "new_volume_mm3": 591.262617633814,
+      "removed_volume_mm3": 177.81965170004298,
+      "skin_seat_mm": 1.05,
+      "web_slot_width_mm": 1.6,
+      "rib": "SF-AIL-O0409L"
+    },
+    {
+      "original_volume_mm3": 700.3303834460278,
+      "new_volume_mm3": 525.7446506811548,
+      "removed_volume_mm3": 174.585732764873,
+      "skin_seat_mm": 1.05,
+      "web_slot_width_mm": 1.6,
+      "rib": "SF-AIL-O0500L"
+    },
+    {
+      "original_volume_mm3": 602.5179980804097,
+      "new_volume_mm3": 432.5030779787397,
+      "removed_volume_mm3": 170.01492010167,
+      "skin_seat_mm": 1.05,
+      "web_slot_width_mm": 1.6,
+      "rib": "SF-AIL-O0640L"
+    },
+    {
+      "original_volume_mm3": 505.51258812025185,
+      "new_volume_mm3": 339.9432505821569,
+      "removed_volume_mm3": 165.56933753809494,
+      "skin_seat_mm": 1.05,
+      "web_slot_width_mm": 1.6,
+      "rib": "SF-AIL-O0785L"
+    },
+    {
+      "original_volume_mm3": 447.6430540730331,
+      "new_volume_mm3": 284.7237724481718,
+      "removed_volume_mm3": 162.9192816248613,
+      "skin_seat_mm": 1.05,
+      "web_slot_width_mm": 1.6,
+      "rib": "SF-AIL-O0880L"
+    },
+    {
+      "original_volume_mm3": 394.30034750770216,
+      "new_volume_mm3": 233.83713746173743,
+      "removed_volume_mm3": 160.46321004596473,
+      "skin_seat_mm": 1.05,
+      "web_slot_width_mm": 1.6,
+      "rib": "SF-AIL-O0975L"
+    },
+    {
+      "original_volume_mm3": 337.4655933463944,
+      "new_volume_mm3": 179.4481898308025,
+      "removed_volume_mm3": 158.01740351559192,
+      "skin_seat_mm": 1.05,
+      "web_slot_width_mm": 1.6,
+      "rib": "SF-AIL-O1086L"
+    },
+    {
+      "original_volume_mm3": 769.0822693342965,
+      "new_volume_mm3": 591.2626176338139,
+      "removed_volume_mm3": 177.8196517004826,
+      "skin_seat_mm": 1.05,
+      "web_slot_width_mm": 1.6,
+      "rib": "SF-AIL-O0409R"
+    },
+    {
+      "original_volume_mm3": 700.3303834453679,
+      "new_volume_mm3": 525.7446506811154,
+      "removed_volume_mm3": 174.5857327642525,
+      "skin_seat_mm": 1.05,
+      "web_slot_width_mm": 1.6,
+      "rib": "SF-AIL-O0500R"
+    },
+    {
+      "original_volume_mm3": 602.5179980795343,
+      "new_volume_mm3": 432.50307797873865,
+      "removed_volume_mm3": 170.01492010079568,
+      "skin_seat_mm": 1.05,
+      "web_slot_width_mm": 1.6,
+      "rib": "SF-AIL-O0640R"
+    },
+    {
+      "original_volume_mm3": 505.5125881199797,
+      "new_volume_mm3": 339.9432505822351,
+      "removed_volume_mm3": 165.56933753774456,
+      "skin_seat_mm": 1.05,
+      "web_slot_width_mm": 1.6,
+      "rib": "SF-AIL-O0785R"
+    },
+    {
+      "original_volume_mm3": 447.6430540734871,
+      "new_volume_mm3": 284.7237724481802,
+      "removed_volume_mm3": 162.9192816253069,
+      "skin_seat_mm": 1.05,
+      "web_slot_width_mm": 1.6,
+      "rib": "SF-AIL-O0880R"
+    },
+    {
+      "original_volume_mm3": 394.30034750693176,
+      "new_volume_mm3": 233.8371374617376,
+      "removed_volume_mm3": 160.46321004519416,
+      "skin_seat_mm": 1.05,
+      "web_slot_width_mm": 1.6,
+      "rib": "SF-AIL-O0975R"
+    },
+    {
+      "original_volume_mm3": 337.46559334649413,
+      "new_volume_mm3": 179.44818983077266,
+      "removed_volume_mm3": 158.01740351572147,
+      "skin_seat_mm": 1.05,
+      "web_slot_width_mm": 1.6,
+      "rib": "SF-AIL-O1086R"
+    }
+  ],
+  "fit_checks": [
+    {
+      "rib": "SF-AIL-O0409L",
+      "skin_thickness_mm": 1.0,
+      "skin_seat_mm": 1.05,
+      "web_thickness_mm": 1.5,
+      "web_slot_mm": 1.6,
+      "skin_clearance_mm": 0.050000000000000044,
+      "web_total_clearance_mm": 0.10000000000000009,
+      "status": "PASS"
+    },
+    {
+      "rib": "SF-AIL-O0500L",
+      "skin_thickness_mm": 1.0,
+      "skin_seat_mm": 1.05,
+      "web_thickness_mm": 1.5,
+      "web_slot_mm": 1.6,
+      "skin_clearance_mm": 0.050000000000000044,
+      "web_total_clearance_mm": 0.10000000000000009,
+      "status": "PASS"
+    },
+    {
+      "rib": "SF-AIL-O0640L",
+      "skin_thickness_mm": 1.0,
+      "skin_seat_mm": 1.05,
+      "web_thickness_mm": 1.5,
+      "web_slot_mm": 1.6,
+      "skin_clearance_mm": 0.050000000000000044,
+      "web_total_clearance_mm": 0.10000000000000009,
+      "status": "PASS"
+    },
+    {
+      "rib": "SF-AIL-O0785L",
+      "skin_thickness_mm": 1.0,
+      "skin_seat_mm": 1.05,
+      "web_thickness_mm": 1.5,
+      "web_slot_mm": 1.6,
+      "skin_clearance_mm": 0.050000000000000044,
+      "web_total_clearance_mm": 0.10000000000000009,
+      "status": "PASS"
+    },
+    {
+      "rib": "SF-AIL-O0880L",
+      "skin_thickness_mm": 1.0,
+      "skin_seat_mm": 1.05,
+      "web_thickness_mm": 1.5,
+      "web_slot_mm": 1.6,
+      "skin_clearance_mm": 0.050000000000000044,
+      "web_total_clearance_mm": 0.10000000000000009,
+      "status": "PASS"
+    },
+    {
+      "rib": "SF-AIL-O0975L",
+      "skin_thickness_mm": 1.0,
+      "skin_seat_mm": 1.05,
+      "web_thickness_mm": 1.5,
+      "web_slot_mm": 1.6,
+      "skin_clearance_mm": 0.050000000000000044,
+      "web_total_clearance_mm": 0.10000000000000009,
+      "status": "PASS"
+    },
+    {
+      "rib": "SF-AIL-O1086L",
+      "skin_thickness_mm": 1.0,
+      "skin_seat_mm": 1.05,
+      "web_thickness_mm": 1.5,
+      "web_slot_mm": 1.6,
+      "skin_clearance_mm": 0.050000000000000044,
+      "web_total_clearance_mm": 0.10000000000000009,
+      "status": "PASS"
+    },
+    {
+      "rib": "SF-AIL-O0409R",
+      "skin_thickness_mm": 1.0,
+      "skin_seat_mm": 1.05,
+      "web_thickness_mm": 1.5,
+      "web_slot_mm": 1.6,
+      "skin_clearance_mm": 0.050000000000000044,
+      "web_total_clearance_mm": 0.10000000000000009,
+      "status": "PASS"
+    },
+    {
+      "rib": "SF-AIL-O0500R",
+      "skin_thickness_mm": 1.0,
+      "skin_seat_mm": 1.05,
+      "web_thickness_mm": 1.5,
+      "web_slot_mm": 1.6,
+      "skin_clearance_mm": 0.050000000000000044,
+      "web_total_clearance_mm": 0.10000000000000009,
+      "status": "PASS"
+    },
+    {
+      "rib": "SF-AIL-O0640R",
+      "skin_thickness_mm": 1.0,
+      "skin_seat_mm": 1.05,
+      "web_thickness_mm": 1.5,
+      "web_slot_mm": 1.6,
+      "skin_clearance_mm": 0.050000000000000044,
+      "web_total_clearance_mm": 0.10000000000000009,
+      "status": "PASS"
+    },
+    {
+      "rib": "SF-AIL-O0785R",
+      "skin_thickness_mm": 1.0,
+      "skin_seat_mm": 1.05,
+      "web_thickness_mm": 1.5,
+      "web_slot_mm": 1.6,
+      "skin_clearance_mm": 0.050000000000000044,
+      "web_total_clearance_mm": 0.10000000000000009,
+      "status": "PASS"
+    },
+    {
+      "rib": "SF-AIL-O0880R",
+      "skin_thickness_mm": 1.0,
+      "skin_seat_mm": 1.05,
+      "web_thickness_mm": 1.5,
+      "web_slot_mm": 1.6,
+      "skin_clearance_mm": 0.050000000000000044,
+      "web_total_clearance_mm": 0.10000000000000009,
+      "status": "PASS"
+    },
+    {
+      "rib": "SF-AIL-O0975R",
+      "skin_thickness_mm": 1.0,
+      "skin_seat_mm": 1.05,
+      "web_thickness_mm": 1.5,
+      "web_slot_mm": 1.6,
+      "skin_clearance_mm": 0.050000000000000044,
+      "web_total_clearance_mm": 0.10000000000000009,
+      "status": "PASS"
+    },
+    {
+      "rib": "SF-AIL-O1086R",
+      "skin_thickness_mm": 1.0,
+      "skin_seat_mm": 1.05,
+      "web_thickness_mm": 1.5,
+      "web_slot_mm": 1.6,
+      "skin_clearance_mm": 0.050000000000000044,
+      "web_total_clearance_mm": 0.10000000000000009,
+      "status": "PASS"
+    }
+  ],
+  "missing_parts": [],
+  "rib_failures": [],
+  "material_failures": [],
+  "reference_density_g_mm3": {
+    "REF_CENTER_FLAP_ENVELOPE_L": 0.0,
+    "REF_CENTER_FLAP_ENVELOPE_R": 0.0,
+    "REF_OUTER_FLAP_ENVELOPE_L": 0.0,
+    "REF_OUTER_FLAP_ENVELOPE_R": 0.0,
+    "REF_AILERON_ENVELOPE_L": 0.0,
+    "REF_AILERON_ENVELOPE_R": 0.0
+  },
+  "forbidden_faceted_entities": {
+    "FACETED_BREP": 0,
+    "TRIANGULATED_FACE_SET": 0,
+    "TESSELLATED_SOLID": 0
+  },
+  "added_film_mass_g": 30.977657430670792,
+  "added_dbox_mass_g": 11.301248645944664,
+  "added_total_mass_g": 42.278906076615456,
+  "part_masses": [
+    {
+      "part": "FILM_CENTER_FLAP_UPPER_L",
+      "volume_mm3": 2458.7279850310715,
+      "density_g_mm3": 0.0012,
+      "mass_g": 2.9504735820372856
+    },
+    {
+      "part": "FILM_CENTER_FLAP_LOWER_L",
+      "volume_mm3": 2355.637713861315,
+      "density_g_mm3": 0.0012,
+      "mass_g": 2.826765256633578
+    },
+    {
+      "part": "FILM_CENTER_FLAP_UPPER_R",
+      "volume_mm3": 2458.727985057384,
+      "density_g_mm3": 0.0012,
+      "mass_g": 2.950473582068861
+    },
+    {
+      "part": "FILM_CENTER_FLAP_LOWER_R",
+      "volume_mm3": 2355.637713864511,
+      "density_g_mm3": 0.0012,
+      "mass_g": 2.826765256637413
+    },
+    {
+      "part": "FILM_OUTER_FLAP_UPPER_L",
+      "volume_mm3": 1711.8303512844468,
+      "density_g_mm3": 0.0012,
+      "mass_g": 2.054196421541336
+    },
+    {
+      "part": "FILM_OUTER_FLAP_LOWER_L",
+      "volume_mm3": 1623.8135568615207,
+      "density_g_mm3": 0.0012,
+      "mass_g": 1.9485762682338248
+    },
+    {
+      "part": "FILM_OUTER_FLAP_UPPER_R",
+      "volume_mm3": 1711.830351261895,
+      "density_g_mm3": 0.0012,
+      "mass_g": 2.054196421514274
+    },
+    {
+      "part": "FILM_OUTER_FLAP_LOWER_R",
+      "volume_mm3": 1623.8135568844245,
+      "density_g_mm3": 0.0012,
+      "mass_g": 1.9485762682613093
+    },
+    {
+      "part": "FILM_AILERON_UPPER_L",
+      "volume_mm3": 2405.5049581157264,
+      "density_g_mm3": 0.0012,
+      "mass_g": 2.8866059497388714
+    },
+    {
+      "part": "FILM_AILERON_LOWER_L",
+      "volume_mm3": 2351.8426976104874,
+      "density_g_mm3": 0.0012,
+      "mass_g": 2.8222112371325845
+    },
+    {
+      "part": "FILM_AILERON_UPPER_R",
+      "volume_mm3": 2405.5049581157264,
+      "density_g_mm3": 0.0012,
+      "mass_g": 2.8866059497388714
+    },
+    {
+      "part": "FILM_AILERON_LOWER_R",
+      "volume_mm3": 2351.8426976104874,
+      "density_g_mm3": 0.0012,
+      "mass_g": 2.8222112371325845
+    },
+    {
+      "part": "AILERON_DBOX_SKIN_UPPER_L",
+      "volume_mm3": 15909.364600015673,
+      "density_g_mm3": 0.00016,
+      "mass_g": 2.545498336002508
+    },
+    {
+      "part": "AILERON_DBOX_SKIN_LOWER_L",
+      "volume_mm3": 15909.364599971459,
+      "density_g_mm3": 0.00016,
+      "mass_g": 2.5454983359954335
+    },
+    {
+      "part": "AILERON_DBOX_REAR_WEB_L",
+      "volume_mm3": 3497.672818591193,
+      "density_g_mm3": 0.00016,
+      "mass_g": 0.5596276509745909
+    },
+    {
+      "part": "AILERON_DBOX_SKIN_UPPER_R",
+      "volume_mm3": 15909.364600002256,
+      "density_g_mm3": 0.00016,
+      "mass_g": 2.545498336000361
+    },
+    {
+      "part": "AILERON_DBOX_SKIN_LOWER_R",
+      "volume_mm3": 15909.364599976714,
+      "density_g_mm3": 0.00016,
+      "mass_g": 2.5454983359962746
+    },
+    {
+      "part": "AILERON_DBOX_REAR_WEB_R",
+      "volume_mm3": 3497.6728185968564,
+      "density_g_mm3": 0.00016,
+      "mass_g": 0.559627650975497
+    }
+  ],
+  "root_names": [
+    "MG20_WING_A34_SMOOTH_BREP"
+  ]
+}

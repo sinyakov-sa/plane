@@ -1,0 +1,184 @@
+{
+  "revision": "A.32",
+  "status": "PASS",
+  "roundtrip_import": true,
+  "root_name": "MG20_WING_A32_SMOOTH_BREP",
+  "required_parts": {
+    "RET_COMPRESSION_SPACER_O000_O035_R": true,
+    "RET_COMPRESSION_SPACER_O000_O035_L": true,
+    "RET_M4_CAPTIVE_NUT_R": true,
+    "RET_M4_CAPTIVE_NUT_L": true,
+    "RET_M4_SOCKET_HEAD_R": true,
+    "RET_M4_SOCKET_HEAD_L": true
+  },
+  "checks": [
+    {
+      "a": "RET_C595_DOUBLER_R",
+      "b": "C595R",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "a": "RET_O000_DOUBLER_R",
+      "b": "O0000R",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "a": "RET_O035_GUIDE_R",
+      "b": "O0035R",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "a": "RET_COMPRESSION_SPACER_O000_O035_R",
+      "b": "O0000R",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "a": "RET_COMPRESSION_SPACER_O000_O035_R",
+      "b": "O0035R",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "a": "RET_M4x55_BOLT_R",
+      "b": "C595R",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "a": "RET_M4x55_BOLT_R",
+      "b": "O0000R",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "a": "RET_M4x55_BOLT_R",
+      "b": "O0035R",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "a": "RET_M4x55_BOLT_R",
+      "b": "MAIN_JOINER_20SQ_R",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "a": "RET_C595_DOUBLER_L",
+      "b": "C595L",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "a": "RET_O000_DOUBLER_L",
+      "b": "O0000L",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "a": "RET_O035_GUIDE_L",
+      "b": "O0035L",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "a": "RET_COMPRESSION_SPACER_O000_O035_L",
+      "b": "O0000L",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "a": "RET_COMPRESSION_SPACER_O000_O035_L",
+      "b": "O0035L",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "a": "RET_M4x55_BOLT_L",
+      "b": "C595L",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "a": "RET_M4x55_BOLT_L",
+      "b": "O0000L",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "a": "RET_M4x55_BOLT_L",
+      "b": "O0035L",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "a": "RET_M4x55_BOLT_L",
+      "b": "MAIN_JOINER_20SQ_L",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "a": "RET_M4x55_BOLT_R",
+      "b": "RET_C595_DOUBLER_R",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "a": "RET_M4x55_BOLT_R",
+      "b": "RET_O000_DOUBLER_R",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "a": "RET_M4x55_BOLT_R",
+      "b": "RET_O035_GUIDE_R",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "a": "RET_M4x55_BOLT_R",
+      "b": "RET_COMPRESSION_SPACER_O000_O035_R",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "a": "RET_M4x55_BOLT_R",
+      "b": "RET_C_NUT_BLOCK_R",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "a": "RET_M4x55_BOLT_L",
+      "b": "RET_C595_DOUBLER_L",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "a": "RET_M4x55_BOLT_L",
+      "b": "RET_O000_DOUBLER_L",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "a": "RET_M4x55_BOLT_L",
+      "b": "RET_O035_GUIDE_L",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "a": "RET_M4x55_BOLT_L",
+      "b": "RET_COMPRESSION_SPACER_O000_O035_L",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    },
+    {
+      "a": "RET_M4x55_BOLT_L",
+      "b": "RET_C_NUT_BLOCK_L",
+      "common_volume_mm3": 0.0,
+      "status": "PASS"
+    }
+  ]
+}

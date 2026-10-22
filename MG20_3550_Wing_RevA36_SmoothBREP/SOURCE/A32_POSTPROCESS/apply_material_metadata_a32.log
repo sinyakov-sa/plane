@@ -1,0 +1,4 @@
+read
+classes {'skin': 18, 'control': 6, 'balsa': 87, 'ply': 90, 'spruce': 76, 'web': 24, 'beech': 18, 'steel': 10, 'aluminium': 4}
+verify {'balsa': {'part': 'LEADING_EDGE_C_R', 'density_g_mm3': 0.00016, 'expected_g_mm3': 0.00016, 'status': 'PASS'}, 'ply': {'part': 'RET_C595_DOUBLER_R', 'density_g_mm3': 0.0007, 'expected_g_mm3': 0.0007, 'status': 'PASS'}, 'spruce': {'part': 'MAIN_CAP_TOP_1_R', 'density_g_mm3': 0.00045000000000000004, 'expected_g_mm3': 0.00045, 'status': 'PASS'}, 'beech': {'part': 'RET_COMPRESSION_SPACER_O000_O035_R', 'density_g_mm3': 0.0007199999999999999, 'expected_g_mm3': 0.00072, 'status': 'PASS'}, 'aluminium': {'part': 'MAIN_JOINER_20SQ_R', 'density_g_mm3': 0.0027, 'expected_g_mm3': 0.0027, 'status': 'PASS'}, 'steel': {'part': 'RET_M4x55_BOLT_R', 'density_g_mm3': 0.00785, 'expected_g_mm3': 0.00785, 'status': 'PASS'}}
+STATUS PASS

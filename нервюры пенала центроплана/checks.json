@@ -1,0 +1,38 @@
+[
+  {
+    "part": "C560-FWD",
+    "axis": 6.790773067788829,
+    "tongue_projection_nominal": 9.800000000000011,
+    "tongue_height_nominal": 9.700000000000003
+  },
+  {
+    "part": "C560-AFT",
+    "axis": 6.790773067788829,
+    "tongue_projection_nominal": 9.799999999999997,
+    "tongue_height_nominal": 9.700000000000003
+  },
+  {
+    "part": "C525-FWD",
+    "axis": 5.568546135577659,
+    "tongue_projection_nominal": 9.800000000000011,
+    "tongue_height_nominal": 9.700000000000003
+  },
+  {
+    "part": "C525-AFT",
+    "axis": 5.568546135577659,
+    "tongue_projection_nominal": 9.799999999999997,
+    "tongue_height_nominal": 9.700000000000003
+  },
+  {
+    "part": "C445-FWD",
+    "axis": 2.7748845762378407,
+    "tongue_projection_nominal": 9.700000000000003,
+    "tongue_height_nominal": 9.799999999999994
+  },
+  {
+    "part": "C445-AFT",
+    "axis": 2.7748845762378407,
+    "tongue_projection_nominal": 9.700000000000003,
+    "tongue_height_nominal": 9.799999999999997
+  }
+]

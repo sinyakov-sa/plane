@@ -1,0 +1,3663 @@
+{
+  "revision": "A.32",
+  "status": "PASS",
+  "density_basis": "XCAF stores g/cm^3; GetDensityForShape returns g/mm^3",
+  "class_counts": {
+    "skin": 18,
+    "control": 6,
+    "balsa": 87,
+    "ply": 90,
+    "spruce": 76,
+    "web": 24,
+    "beech": 18,
+    "steel": 10,
+    "aluminium": 4
+  },
+  "representative_roundtrip": {
+    "balsa": {
+      "part": "LEADING_EDGE_C_R",
+      "density_g_mm3": 0.00016,
+      "expected_g_mm3": 0.00016,
+      "status": "PASS"
+    },
+    "ply": {
+      "part": "RET_C595_DOUBLER_R",
+      "density_g_mm3": 0.0007,
+      "expected_g_mm3": 0.0007,
+      "status": "PASS"
+    },
+    "spruce": {
+      "part": "MAIN_CAP_TOP_1_R",
+      "density_g_mm3": 0.00045000000000000004,
+      "expected_g_mm3": 0.00045,
+      "status": "PASS"
+    },
+    "beech": {
+      "part": "RET_COMPRESSION_SPACER_O000_O035_R",
+      "density_g_mm3": 0.0007199999999999999,
+      "expected_g_mm3": 0.00072,
+      "status": "PASS"
+    },
+    "aluminium": {
+      "part": "MAIN_JOINER_20SQ_R",
+      "density_g_mm3": 0.0027,
+      "expected_g_mm3": 0.0027,
+      "status": "PASS"
+    },
+    "steel": {
+      "part": "RET_M4x55_BOLT_R",
+      "density_g_mm3": 0.00785,
+      "expected_g_mm3": 0.00785,
+      "status": "PASS"
+    }
+  },
+  "assignments": [
+    {
+      "part": "FIXED_CENTER_FLAP_BAY_L",
+      "class": "skin",
+      "material": "Reference aerodynamic envelope",
+      "density_g_cm3": 0.0,
+      "color_rgb": [
+        0.295699805021286,
+        0.5382355451583862,
+        0.8275708556175232
+      ]
+    },
+    {
+      "part": "FIXED_CENTER_FLAP_BAY_R",
+      "class": "skin",
+      "material": "Reference aerodynamic envelope",
+      "density_g_cm3": 0.0,
+      "color_rgb": [
+        0.295699805021286,
+        0.5382355451583862,
+        0.8275708556175232
+      ]
+    },
+    {
+      "part": "FIXED_CENTER_ROOT_L",
+      "class": "skin",
+      "material": "Reference aerodynamic envelope",
+      "density_g_cm3": 0.0,
+      "color_rgb": [
+        0.295699805021286,
+        0.5382355451583862,
+        0.8275708556175232
+      ]
+    },
+    {
+      "part": "FIXED_CENTER_ROOT_R",
+      "class": "skin",
+      "material": "Reference aerodynamic envelope",
+      "density_g_cm3": 0.0,
+      "color_rgb": [
+        0.295699805021286,
+        0.5382355451583862,
+        0.8275708556175232
+      ]
+    },
+    {
+      "part": "FIXED_CENTER_TIP_L",
+      "class": "skin",
+      "material": "Reference aerodynamic envelope",
+      "density_g_cm3": 0.0,
+      "color_rgb": [
+        0.295699805021286,
+        0.5382355451583862,
+        0.8275708556175232
+      ]
+    },
+    {
+      "part": "FIXED_CENTER_TIP_R",
+      "class": "skin",
+      "material": "Reference aerodynamic envelope",
+      "density_g_cm3": 0.0,
+      "color_rgb": [
+        0.295699805021286,
+        0.5382355451583862,
+        0.8275708556175232
+      ]
+    },
+    {
+      "part": "CENTER_FLAP_L",
+      "class": "control",
+      "material": "Reference control-surface envelope",
+      "density_g_cm3": 0.0,
+      "color_rgb": [
+        0.8900054097175598,
+        0.295699805021286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "CENTER_FLAP_R",
+      "class": "control",
+      "material": "Reference control-surface envelope",
+      "density_g_cm3": 0.0,
+      "color_rgb": [
+        0.8900054097175598,
+        0.295699805021286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "C000",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "C075L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "C075R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "C100L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "C100R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "C125L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "C125R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "C205L-AFT",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "C205L-FWD",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "C205R-AFT",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "C205R-FWD",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "C285L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "C285R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "C365L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "C365R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "C445L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "C445R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "C525L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "C525R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "C560L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "C560R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "C595L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "C595R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "SF-CF-C129L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-CF-C129R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-CF-C205L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-CF-C205R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-CF-C285L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-CF-C285R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-CF-C365L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-CF-C365R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-CF-C445L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-CF-C445R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-CF-C525L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-CF-C525R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-CF-C556L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-CF-C556R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "CENTER_FLAP_FIXED_HINGE_L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "CENTER_FLAP_FIXED_HINGE_R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "CENTER_FLAP_NOSE_L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "CENTER_FLAP_NOSE_R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "CONTROL_TE_CF_L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "CONTROL_TE_CF_R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "LEADING_EDGE_C_L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "LEADING_EDGE_C_R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "MAIN_CAP_BOTTOM_1_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "MAIN_CAP_BOTTOM_1_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "MAIN_CAP_TOP_1_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "MAIN_CAP_TOP_1_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "MAIN_WEB_1_A_L",
+      "class": "web",
+      "material": "Birch plywood web",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.15487249195575714,
+        0.05087608844041824,
+        0.011645430698990822
+      ]
+    },
+    {
+      "part": "MAIN_WEB_1_A_R",
+      "class": "web",
+      "material": "Birch plywood web",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.15487249195575714,
+        0.05087608844041824,
+        0.011645430698990822
+      ]
+    },
+    {
+      "part": "MAIN_WEB_1_B_L",
+      "class": "web",
+      "material": "Birch plywood web",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.15487249195575714,
+        0.05087608844041824,
+        0.011645430698990822
+      ]
+    },
+    {
+      "part": "MAIN_WEB_1_B_R",
+      "class": "web",
+      "material": "Birch plywood web",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.15487249195575714,
+        0.05087608844041824,
+        0.011645430698990822
+      ]
+    },
+    {
+      "part": "REAR_SPAR_CENTER_FLAP_BOTTOM_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "REAR_SPAR_CENTER_FLAP_BOTTOM_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "REAR_SPAR_CENTER_FLAP_TOP_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "REAR_SPAR_CENTER_FLAP_TOP_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "REAR_SPAR_CENTER_INNER_BOTTOM_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "REAR_SPAR_CENTER_INNER_BOTTOM_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "REAR_SPAR_CENTER_INNER_TOP_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "REAR_SPAR_CENTER_INNER_TOP_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "REAR_SPAR_CENTER_TIP_BOTTOM_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "REAR_SPAR_CENTER_TIP_BOTTOM_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "REAR_SPAR_CENTER_TIP_TOP_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "REAR_SPAR_CENTER_TIP_TOP_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "JOINER_C_COVER_BOTTOM_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "JOINER_C_COVER_BOTTOM_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "JOINER_C_COVER_TOP_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "JOINER_C_COVER_TOP_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "JOINER_C_RAIL_LOWER_F_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "JOINER_C_RAIL_LOWER_F_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "JOINER_C_RAIL_LOWER_R_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "JOINER_C_RAIL_LOWER_R_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "JOINER_C_RAIL_UPPER_F_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "JOINER_C_RAIL_UPPER_F_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "JOINER_C_RAIL_UPPER_R_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "JOINER_C_RAIL_UPPER_R_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "JOINER_C_SHOE_LOWER_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "JOINER_C_SHOE_LOWER_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "JOINER_C_SHOE_UPPER_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "JOINER_C_SHOE_UPPER_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "JOINER_C_WEB_SLEEVE_F_L",
+      "class": "web",
+      "material": "Birch plywood web",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.15487249195575714,
+        0.05087608844041824,
+        0.011645430698990822
+      ]
+    },
+    {
+      "part": "JOINER_C_WEB_SLEEVE_F_R",
+      "class": "web",
+      "material": "Birch plywood web",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.15487249195575714,
+        0.05087608844041824,
+        0.011645430698990822
+      ]
+    },
+    {
+      "part": "JOINER_C_WEB_SLEEVE_R_L",
+      "class": "web",
+      "material": "Birch plywood web",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.15487249195575714,
+        0.05087608844041824,
+        0.011645430698990822
+      ]
+    },
+    {
+      "part": "JOINER_C_WEB_SLEEVE_R_R",
+      "class": "web",
+      "material": "Birch plywood web",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.15487249195575714,
+        0.05087608844041824,
+        0.011645430698990822
+      ]
+    },
+    {
+      "part": "JOINER_C_WEB_SPLICE_F_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "JOINER_C_WEB_SPLICE_F_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "JOINER_C_WEB_SPLICE_R_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "JOINER_C_WEB_SPLICE_R_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "JOINER_C_WEB_TRANSITION_F_L",
+      "class": "web",
+      "material": "Birch plywood web",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.15487249195575714,
+        0.05087608844041824,
+        0.011645430698990822
+      ]
+    },
+    {
+      "part": "JOINER_C_WEB_TRANSITION_F_R",
+      "class": "web",
+      "material": "Birch plywood web",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.15487249195575714,
+        0.05087608844041824,
+        0.011645430698990822
+      ]
+    },
+    {
+      "part": "JOINER_C_WEB_TRANSITION_R_L",
+      "class": "web",
+      "material": "Birch plywood web",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.15487249195575714,
+        0.05087608844041824,
+        0.011645430698990822
+      ]
+    },
+    {
+      "part": "JOINER_C_WEB_TRANSITION_R_R",
+      "class": "web",
+      "material": "Birch plywood web",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.15487249195575714,
+        0.05087608844041824,
+        0.011645430698990822
+      ]
+    },
+    {
+      "part": "JOINER_C_WEB_TUBE_SPLICE_F_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "JOINER_C_WEB_TUBE_SPLICE_F_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "JOINER_C_WEB_TUBE_SPLICE_R_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "JOINER_C_WEB_TUBE_SPLICE_R_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "SERVO_COVER_CF_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "SERVO_COVER_CF_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "SERVO_BEZEL_CF_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": null
+    },
+    {
+      "part": "SERVO_BACKING_CF_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": null
+    },
+    {
+      "part": "SERVO_SUPPORT_RAIL_FWD_CF_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "SERVO_SUPPORT_RAIL_AFT_CF_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "SERVO_MOUNT_BLOCK_FWD_CF_R",
+      "class": "beech",
+      "material": "Beech hardwood",
+      "density_g_cm3": 0.72,
+      "color_rgb": [
+        0.34239163994789124,
+        0.11928018927574158,
+        0.02451501414179802
+      ]
+    },
+    {
+      "part": "SERVO_MOUNT_BLOCK_AFT_CF_R",
+      "class": "beech",
+      "material": "Beech hardwood",
+      "density_g_cm3": 0.72,
+      "color_rgb": [
+        0.34239163994789124,
+        0.11928018927574158,
+        0.02451501414179802
+      ]
+    },
+    {
+      "part": "SERVO_BEZEL_CF_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": null
+    },
+    {
+      "part": "SERVO_BACKING_CF_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": null
+    },
+    {
+      "part": "SERVO_SUPPORT_RAIL_FWD_CF_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "SERVO_SUPPORT_RAIL_AFT_CF_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "SERVO_MOUNT_BLOCK_FWD_CF_L",
+      "class": "beech",
+      "material": "Beech hardwood",
+      "density_g_cm3": 0.72,
+      "color_rgb": [
+        0.34239163994789124,
+        0.11928018927574158,
+        0.02451501414179802
+      ]
+    },
+    {
+      "part": "SERVO_MOUNT_BLOCK_AFT_CF_L",
+      "class": "beech",
+      "material": "Beech hardwood",
+      "density_g_cm3": 0.72,
+      "color_rgb": [
+        0.34239163994789124,
+        0.11928018927574158,
+        0.02451501414179802
+      ]
+    },
+    {
+      "part": "RET_C595_DOUBLER_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "RET_C595_DOUBLER_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "RET_C_NUT_BLOCK_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "RET_C_NUT_BLOCK_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "RET_M4_CAPTIVE_NUT_R",
+      "class": "steel",
+      "material": "Steel",
+      "density_g_cm3": 7.85,
+      "color_rgb": [
+        0.1473190039396286,
+        0.17064493894577026,
+        0.19599418342113495
+      ]
+    },
+    {
+      "part": "RET_M4_CAPTIVE_NUT_L",
+      "class": "steel",
+      "material": "Steel",
+      "density_g_cm3": 7.85,
+      "color_rgb": [
+        0.1473190039396286,
+        0.17064493894577026,
+        0.19599418342113495
+      ]
+    },
+    {
+      "part": "WM_BOLT_BLOCK_L",
+      "class": "beech",
+      "material": "Beech hardwood",
+      "density_g_cm3": 0.72,
+      "color_rgb": [
+        0.34239163994789124,
+        0.11928018927574158,
+        0.02451501414179802
+      ]
+    },
+    {
+      "part": "WM_BOLT_BLOCK_R",
+      "class": "beech",
+      "material": "Beech hardwood",
+      "density_g_cm3": 0.72,
+      "color_rgb": [
+        0.34239163994789124,
+        0.11928018927574158,
+        0.02451501414179802
+      ]
+    },
+    {
+      "part": "WM_BOLT_PAD_BOTTOM_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "WM_BOLT_PAD_BOTTOM_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "WM_BOLT_PAD_TOP_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "WM_BOLT_PAD_TOP_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "WM_FRONT_PIN_D8_L",
+      "class": "steel",
+      "material": "Steel",
+      "density_g_cm3": 7.85,
+      "color_rgb": [
+        0.1473190039396286,
+        0.17064493894577026,
+        0.19599418342113495
+      ]
+    },
+    {
+      "part": "WM_FRONT_PIN_D8_R",
+      "class": "steel",
+      "material": "Steel",
+      "density_g_cm3": 7.85,
+      "color_rgb": [
+        0.1473190039396286,
+        0.17064493894577026,
+        0.19599418342113495
+      ]
+    },
+    {
+      "part": "WM_PIN_BLOCK_L",
+      "class": "beech",
+      "material": "Beech hardwood",
+      "density_g_cm3": 0.72,
+      "color_rgb": [
+        0.34239163994789124,
+        0.11928018927574158,
+        0.02451501414179802
+      ]
+    },
+    {
+      "part": "WM_PIN_BLOCK_R",
+      "class": "beech",
+      "material": "Beech hardwood",
+      "density_g_cm3": 0.72,
+      "color_rgb": [
+        0.34239163994789124,
+        0.11928018927574158,
+        0.02451501414179802
+      ]
+    },
+    {
+      "part": "WM_PIN_DOUBLER_C075_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "WM_PIN_DOUBLER_C075_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "WM_PIN_DOUBLER_C100_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "WM_PIN_DOUBLER_C100_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "WM_REAR_M6_BOLT_L",
+      "class": "steel",
+      "material": "Steel",
+      "density_g_cm3": 7.85,
+      "color_rgb": null
+    },
+    {
+      "part": "WM_REAR_M6_BOLT_R",
+      "class": "steel",
+      "material": "Steel",
+      "density_g_cm3": 7.85,
+      "color_rgb": null
+    },
+    {
+      "part": "WM_REAR_SLEEVE_OD8_L",
+      "class": "aluminium",
+      "material": "AD31T1 / 6060-T6 aluminium",
+      "density_g_cm3": 2.7,
+      "color_rgb": [
+        0.4479884207248688,
+        0.4919050335884094,
+        0.5382355451583862
+      ]
+    },
+    {
+      "part": "WM_REAR_SLEEVE_OD8_R",
+      "class": "aluminium",
+      "material": "AD31T1 / 6060-T6 aluminium",
+      "density_g_cm3": 2.7,
+      "color_rgb": [
+        0.4479884207248688,
+        0.4919050335884094,
+        0.5382355451583862
+      ]
+    },
+    {
+      "part": "CENTER_FLAP_WEB_L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "CENTER_FLAP_WEB_R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "FIXED_AILERON_BAY_L",
+      "class": "skin",
+      "material": "Reference aerodynamic envelope",
+      "density_g_cm3": 0.0,
+      "color_rgb": [
+        0.295699805021286,
+        0.5382355451583862,
+        0.8275708556175232
+      ]
+    },
+    {
+      "part": "FIXED_OUTER_FLAP_BAY_L",
+      "class": "skin",
+      "material": "Reference aerodynamic envelope",
+      "density_g_cm3": 0.0,
+      "color_rgb": [
+        0.295699805021286,
+        0.5382355451583862,
+        0.8275708556175232
+      ]
+    },
+    {
+      "part": "FIXED_OUTER_GAP_L",
+      "class": "skin",
+      "material": "Reference aerodynamic envelope",
+      "density_g_cm3": 0.0,
+      "color_rgb": [
+        0.295699805021286,
+        0.5382355451583862,
+        0.8275708556175232
+      ]
+    },
+    {
+      "part": "FIXED_OUTER_ROOT_L",
+      "class": "skin",
+      "material": "Reference aerodynamic envelope",
+      "density_g_cm3": 0.0,
+      "color_rgb": [
+        0.295699805021286,
+        0.5382355451583862,
+        0.8275708556175232
+      ]
+    },
+    {
+      "part": "FIXED_OUTER_TIP_L",
+      "class": "skin",
+      "material": "Reference aerodynamic envelope",
+      "density_g_cm3": 0.0,
+      "color_rgb": [
+        0.295699805021286,
+        0.5382355451583862,
+        0.8275708556175232
+      ]
+    },
+    {
+      "part": "FIXED_WINGTIP_L",
+      "class": "skin",
+      "material": "Reference aerodynamic envelope",
+      "density_g_cm3": 0.0,
+      "color_rgb": [
+        0.295699805021286,
+        0.5382355451583862,
+        0.8275708556175232
+      ]
+    },
+    {
+      "part": "AILERON_L",
+      "class": "control",
+      "material": "Reference control-surface envelope",
+      "density_g_cm3": 0.0,
+      "color_rgb": [
+        0.8900054097175598,
+        0.295699805021286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "OUTER_FLAP_L",
+      "class": "control",
+      "material": "Reference control-surface envelope",
+      "density_g_cm3": 0.0,
+      "color_rgb": [
+        0.8900054097175598,
+        0.295699805021286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "O0000L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "O0035L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "O0180L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "O0230L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "O0350L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "O0385L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "O0405L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "O0500L-AFT",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "O0500L-FWD",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "O0640L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "O0785L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "O0880L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "O0975L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "O1090L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "O1165L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-AIL-O0409L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-AIL-O0500L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-AIL-O0640L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-AIL-O0785L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-AIL-O0880L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-AIL-O0975L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-AIL-O1086L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-OF-O0039L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-OF-O0180L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-OF-O0230L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-OF-O0350L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-OF-O0381L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "AILERON_FIXED_HINGE_L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "AILERON_NOSE_L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "CONTROL_TE_AIL_L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "CONTROL_TE_OF_L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "LEADING_EDGE_O1_L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "LEADING_EDGE_O2_L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "LEADING_EDGE_O3_L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "MAIN_CAP_BOTTOM_2_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "MAIN_CAP_TOP_2_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "MAIN_WEB_2_A_L",
+      "class": "web",
+      "material": "Birch plywood web",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.15487249195575714,
+        0.05087608844041824,
+        0.011645430698990822
+      ]
+    },
+    {
+      "part": "MAIN_WEB_2_B_L",
+      "class": "web",
+      "material": "Birch plywood web",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.15487249195575714,
+        0.05087608844041824,
+        0.011645430698990822
+      ]
+    },
+    {
+      "part": "OUTER_FLAP_FIXED_HINGE_L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "OUTER_FLAP_NOSE_L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "REAR_SPAR_OUTER_AFT_1_BOTTOM_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "REAR_SPAR_OUTER_AFT_1_TOP_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "REAR_SPAR_OUTER_AFT_2_BOTTOM_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "REAR_SPAR_OUTER_AFT_2_TOP_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "REAR_SPAR_OUTER_FLAP_BOTTOM_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "REAR_SPAR_OUTER_FLAP_TOP_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "REAR_SPAR_OUTER_ROOT_BOTTOM_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "REAR_SPAR_OUTER_ROOT_TOP_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "JOINER_O_COVER_BOTTOM_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "JOINER_O_COVER_TOP_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "JOINER_O_RAIL_LOWER_F_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "JOINER_O_RAIL_LOWER_R_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "JOINER_O_RAIL_UPPER_F_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "JOINER_O_RAIL_UPPER_R_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "JOINER_O_SHOE_LOWER_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "JOINER_O_SHOE_UPPER_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "JOINER_O_WEB_SLEEVE_F_L",
+      "class": "web",
+      "material": "Birch plywood web",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.15487249195575714,
+        0.05087608844041824,
+        0.011645430698990822
+      ]
+    },
+    {
+      "part": "JOINER_O_WEB_SLEEVE_R_L",
+      "class": "web",
+      "material": "Birch plywood web",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.15487249195575714,
+        0.05087608844041824,
+        0.011645430698990822
+      ]
+    },
+    {
+      "part": "JOINER_O_WEB_SPLICE_F_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "JOINER_O_WEB_SPLICE_R_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "JOINER_O_WEB_TRANSITION_F_L",
+      "class": "web",
+      "material": "Birch plywood web",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.15487249195575714,
+        0.05087608844041824,
+        0.011645430698990822
+      ]
+    },
+    {
+      "part": "JOINER_O_WEB_TRANSITION_R_L",
+      "class": "web",
+      "material": "Birch plywood web",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.15487249195575714,
+        0.05087608844041824,
+        0.011645430698990822
+      ]
+    },
+    {
+      "part": "JOINER_O_WEB_TUBE_SPLICE_F_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "JOINER_O_WEB_TUBE_SPLICE_R_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "MAIN_JOINER_20SQ_L",
+      "class": "aluminium",
+      "material": "AD31T1 / 6060-T6 aluminium",
+      "density_g_cm3": 2.7,
+      "color_rgb": [
+        0.4479884207248688,
+        0.4919050335884094,
+        0.5382355451583862
+      ]
+    },
+    {
+      "part": "SERVO_COVER_AIL_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "SERVO_COVER_OF_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "SERVO_BEZEL_OF_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": null
+    },
+    {
+      "part": "SERVO_BACKING_OF_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": null
+    },
+    {
+      "part": "SERVO_SUPPORT_RAIL_SIDE_INBD_OF_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "SERVO_SUPPORT_RAIL_AFT_OF_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "SERVO_MOUNT_BLOCK_FWD_OF_L",
+      "class": "beech",
+      "material": "Beech hardwood",
+      "density_g_cm3": 0.72,
+      "color_rgb": [
+        0.34239163994789124,
+        0.11928018927574158,
+        0.02451501414179802
+      ]
+    },
+    {
+      "part": "SERVO_MOUNT_BLOCK_AFT_OF_L",
+      "class": "beech",
+      "material": "Beech hardwood",
+      "density_g_cm3": 0.72,
+      "color_rgb": [
+        0.34239163994789124,
+        0.11928018927574158,
+        0.02451501414179802
+      ]
+    },
+    {
+      "part": "SERVO_BEZEL_AIL_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": null
+    },
+    {
+      "part": "SERVO_BACKING_AIL_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": null
+    },
+    {
+      "part": "SERVO_SUPPORT_RAIL_FWD_AIL_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "SERVO_SUPPORT_RAIL_AFT_AIL_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "SERVO_MOUNT_BLOCK_FWD_AIL_L",
+      "class": "beech",
+      "material": "Beech hardwood",
+      "density_g_cm3": 0.72,
+      "color_rgb": [
+        0.34239163994789124,
+        0.11928018927574158,
+        0.02451501414179802
+      ]
+    },
+    {
+      "part": "SERVO_MOUNT_BLOCK_AFT_AIL_L",
+      "class": "beech",
+      "material": "Beech hardwood",
+      "density_g_cm3": 0.72,
+      "color_rgb": [
+        0.34239163994789124,
+        0.11928018927574158,
+        0.02451501414179802
+      ]
+    },
+    {
+      "part": "SERVO_SUPPORT_RAIL_SIDE_OUTBD_OF_L",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "RET_M4x55_BOLT_L",
+      "class": "steel",
+      "material": "Steel",
+      "density_g_cm3": 7.85,
+      "color_rgb": [
+        0.1473190039396286,
+        0.17064493894577026,
+        0.19599418342113495
+      ]
+    },
+    {
+      "part": "RET_O000_DOUBLER_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "RET_O035_GUIDE_L",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "RET_COMPRESSION_SPACER_O000_O035_L",
+      "class": "beech",
+      "material": "Beech hardwood",
+      "density_g_cm3": 0.72,
+      "color_rgb": [
+        0.34239163994789124,
+        0.11928018927574158,
+        0.02451501414179802
+      ]
+    },
+    {
+      "part": "RET_M4_SOCKET_HEAD_L",
+      "class": "steel",
+      "material": "Steel",
+      "density_g_cm3": 7.85,
+      "color_rgb": [
+        0.1473190039396286,
+        0.17064493894577026,
+        0.19599418342113495
+      ]
+    },
+    {
+      "part": "OUTER_FLAP_WEB_L",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "FIXED_AILERON_BAY_R",
+      "class": "skin",
+      "material": "Reference aerodynamic envelope",
+      "density_g_cm3": 0.0,
+      "color_rgb": [
+        0.295699805021286,
+        0.5382355451583862,
+        0.8275708556175232
+      ]
+    },
+    {
+      "part": "FIXED_OUTER_FLAP_BAY_R",
+      "class": "skin",
+      "material": "Reference aerodynamic envelope",
+      "density_g_cm3": 0.0,
+      "color_rgb": [
+        0.295699805021286,
+        0.5382355451583862,
+        0.8275708556175232
+      ]
+    },
+    {
+      "part": "FIXED_OUTER_GAP_R",
+      "class": "skin",
+      "material": "Reference aerodynamic envelope",
+      "density_g_cm3": 0.0,
+      "color_rgb": [
+        0.295699805021286,
+        0.5382355451583862,
+        0.8275708556175232
+      ]
+    },
+    {
+      "part": "FIXED_OUTER_ROOT_R",
+      "class": "skin",
+      "material": "Reference aerodynamic envelope",
+      "density_g_cm3": 0.0,
+      "color_rgb": [
+        0.295699805021286,
+        0.5382355451583862,
+        0.8275708556175232
+      ]
+    },
+    {
+      "part": "FIXED_OUTER_TIP_R",
+      "class": "skin",
+      "material": "Reference aerodynamic envelope",
+      "density_g_cm3": 0.0,
+      "color_rgb": [
+        0.295699805021286,
+        0.5382355451583862,
+        0.8275708556175232
+      ]
+    },
+    {
+      "part": "FIXED_WINGTIP_R",
+      "class": "skin",
+      "material": "Reference aerodynamic envelope",
+      "density_g_cm3": 0.0,
+      "color_rgb": [
+        0.295699805021286,
+        0.5382355451583862,
+        0.8275708556175232
+      ]
+    },
+    {
+      "part": "AILERON_R",
+      "class": "control",
+      "material": "Reference control-surface envelope",
+      "density_g_cm3": 0.0,
+      "color_rgb": [
+        0.8900054097175598,
+        0.295699805021286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "OUTER_FLAP_R",
+      "class": "control",
+      "material": "Reference control-surface envelope",
+      "density_g_cm3": 0.0,
+      "color_rgb": [
+        0.8900054097175598,
+        0.295699805021286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "O0000R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "O0035R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "O0180R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "O0230R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "O0350R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "O0385R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "O0405R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "O0500R-AFT",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "O0500R-FWD",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "O0640R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "O0785R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "O0880R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "O0975R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "O1090R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "O1165R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-AIL-O0409R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-AIL-O0500R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-AIL-O0640R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-AIL-O0785R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-AIL-O0880R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-AIL-O0975R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-AIL-O1086R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-OF-O0039R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-OF-O0180R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-OF-O0230R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-OF-O0350R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "SF-OF-O0381R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "AILERON_FIXED_HINGE_R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "AILERON_NOSE_R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "CONTROL_TE_AIL_R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "CONTROL_TE_OF_R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "LEADING_EDGE_O1_R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "LEADING_EDGE_O2_R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "LEADING_EDGE_O3_R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "MAIN_CAP_BOTTOM_2_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "MAIN_CAP_TOP_2_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "MAIN_WEB_2_A_R",
+      "class": "web",
+      "material": "Birch plywood web",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.15487249195575714,
+        0.05087608844041824,
+        0.011645430698990822
+      ]
+    },
+    {
+      "part": "MAIN_WEB_2_B_R",
+      "class": "web",
+      "material": "Birch plywood web",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.15487249195575714,
+        0.05087608844041824,
+        0.011645430698990822
+      ]
+    },
+    {
+      "part": "OUTER_FLAP_FIXED_HINGE_R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "OUTER_FLAP_NOSE_R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    },
+    {
+      "part": "REAR_SPAR_OUTER_AFT_1_BOTTOM_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "REAR_SPAR_OUTER_AFT_1_TOP_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "REAR_SPAR_OUTER_AFT_2_BOTTOM_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "REAR_SPAR_OUTER_AFT_2_TOP_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "REAR_SPAR_OUTER_FLAP_BOTTOM_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "REAR_SPAR_OUTER_FLAP_TOP_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "REAR_SPAR_OUTER_ROOT_BOTTOM_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "REAR_SPAR_OUTER_ROOT_TOP_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "JOINER_O_COVER_BOTTOM_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "JOINER_O_COVER_TOP_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "JOINER_O_RAIL_LOWER_F_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "JOINER_O_RAIL_LOWER_R_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "JOINER_O_RAIL_UPPER_F_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "JOINER_O_RAIL_UPPER_R_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "JOINER_O_SHOE_LOWER_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "JOINER_O_SHOE_UPPER_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "JOINER_O_WEB_SLEEVE_F_R",
+      "class": "web",
+      "material": "Birch plywood web",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.15487249195575714,
+        0.05087608844041824,
+        0.011645430698990822
+      ]
+    },
+    {
+      "part": "JOINER_O_WEB_SLEEVE_R_R",
+      "class": "web",
+      "material": "Birch plywood web",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.15487249195575714,
+        0.05087608844041824,
+        0.011645430698990822
+      ]
+    },
+    {
+      "part": "JOINER_O_WEB_SPLICE_F_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "JOINER_O_WEB_SPLICE_R_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "JOINER_O_WEB_TRANSITION_F_R",
+      "class": "web",
+      "material": "Birch plywood web",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.15487249195575714,
+        0.05087608844041824,
+        0.011645430698990822
+      ]
+    },
+    {
+      "part": "JOINER_O_WEB_TRANSITION_R_R",
+      "class": "web",
+      "material": "Birch plywood web",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.15487249195575714,
+        0.05087608844041824,
+        0.011645430698990822
+      ]
+    },
+    {
+      "part": "JOINER_O_WEB_TUBE_SPLICE_F_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "JOINER_O_WEB_TUBE_SPLICE_R_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "MAIN_JOINER_20SQ_R",
+      "class": "aluminium",
+      "material": "AD31T1 / 6060-T6 aluminium",
+      "density_g_cm3": 2.7,
+      "color_rgb": [
+        0.4479884207248688,
+        0.4919050335884094,
+        0.5382355451583862
+      ]
+    },
+    {
+      "part": "SERVO_COVER_AIL_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "SERVO_COVER_OF_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "SERVO_BEZEL_OF_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": null
+    },
+    {
+      "part": "SERVO_BACKING_OF_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": null
+    },
+    {
+      "part": "SERVO_SUPPORT_RAIL_SIDE_INBD_OF_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "SERVO_SUPPORT_RAIL_AFT_OF_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "SERVO_MOUNT_BLOCK_FWD_OF_R",
+      "class": "beech",
+      "material": "Beech hardwood",
+      "density_g_cm3": 0.72,
+      "color_rgb": [
+        0.34239163994789124,
+        0.11928018927574158,
+        0.02451501414179802
+      ]
+    },
+    {
+      "part": "SERVO_MOUNT_BLOCK_AFT_OF_R",
+      "class": "beech",
+      "material": "Beech hardwood",
+      "density_g_cm3": 0.72,
+      "color_rgb": [
+        0.34239163994789124,
+        0.11928018927574158,
+        0.02451501414179802
+      ]
+    },
+    {
+      "part": "SERVO_BEZEL_AIL_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": null
+    },
+    {
+      "part": "SERVO_BACKING_AIL_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": null
+    },
+    {
+      "part": "SERVO_SUPPORT_RAIL_FWD_AIL_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "SERVO_SUPPORT_RAIL_AFT_AIL_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "SERVO_MOUNT_BLOCK_FWD_AIL_R",
+      "class": "beech",
+      "material": "Beech hardwood",
+      "density_g_cm3": 0.72,
+      "color_rgb": [
+        0.34239163994789124,
+        0.11928018927574158,
+        0.02451501414179802
+      ]
+    },
+    {
+      "part": "SERVO_MOUNT_BLOCK_AFT_AIL_R",
+      "class": "beech",
+      "material": "Beech hardwood",
+      "density_g_cm3": 0.72,
+      "color_rgb": [
+        0.34239163994789124,
+        0.11928018927574158,
+        0.02451501414179802
+      ]
+    },
+    {
+      "part": "SERVO_SUPPORT_RAIL_SIDE_OUTBD_OF_R",
+      "class": "spruce",
+      "material": "Spruce / selected pine",
+      "density_g_cm3": 0.45,
+      "color_rgb": [
+        0.3546920716762543,
+        0.1473190039396286,
+        0.027211781591176987
+      ]
+    },
+    {
+      "part": "RET_M4x55_BOLT_R",
+      "class": "steel",
+      "material": "Steel",
+      "density_g_cm3": 7.85,
+      "color_rgb": [
+        0.1473190039396286,
+        0.17064493894577026,
+        0.19599418342113495
+      ]
+    },
+    {
+      "part": "RET_O000_DOUBLER_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "RET_O035_GUIDE_R",
+      "class": "ply",
+      "material": "Birch plywood",
+      "density_g_cm3": 0.7,
+      "color_rgb": [
+        0.2632734179496765,
+        0.07828831672668457,
+        0.015325203537940979
+      ]
+    },
+    {
+      "part": "RET_COMPRESSION_SPACER_O000_O035_R",
+      "class": "beech",
+      "material": "Beech hardwood",
+      "density_g_cm3": 0.72,
+      "color_rgb": [
+        0.34239163994789124,
+        0.11928018927574158,
+        0.02451501414179802
+      ]
+    },
+    {
+      "part": "RET_M4_SOCKET_HEAD_R",
+      "class": "steel",
+      "material": "Steel",
+      "density_g_cm3": 7.85,
+      "color_rgb": [
+        0.1473190039396286,
+        0.17064493894577026,
+        0.19599418342113495
+      ]
+    },
+    {
+      "part": "OUTER_FLAP_WEB_R",
+      "class": "balsa",
+      "material": "Balsa",
+      "density_g_cm3": 0.16,
+      "color_rgb": [
+        0.7105664610862732,
+        0.4200332760810852,
+        0.13286831974983215
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+; PLY2 O0035 O0180 RevD tongue fit coupon
+; Stock 40x40 mm; grain X; zero lower left
+; Nominal tongue 9.7 wide x 9.8 deep at kerf 0.25
+; GRBL 1.1 $30=1000 $32=1; overrides 100%; ONE PASS
+G21
+G90
+G94
+M5
+G0 X5.000 Y5.000
+M4 S1000
+G1 F480
+G1 X20.000 Y5.000
+G1 X20.000 Y12.000
+G1 X29.800 Y12.000
+G1 X29.800 Y21.950
+G1 X20.000 Y21.950
+G1 X20.000 Y30.000
+G1 X5.000 Y30.000
+G1 X5.000 Y5.000
+M5
+G0 X0 Y0
+M5

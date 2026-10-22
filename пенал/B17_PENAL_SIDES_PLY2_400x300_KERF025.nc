@@ -1,0 +1,50 @@
+; Energy per length: +10 percent versus rib settings F480 / F232.8.
+; M4 S1000 ONE PASS; $30=1000 $32=1; overrides 100 percent.
+; MG20 JOINER B17-3MM - BIRCH PLYWOOD 2 mm - SIDES
+; Work area 400x300 mm; zero at lower-left
+; NO sanding allowance. Kerf 0.250 mm already applied.
+; Nominal finished sizes: 230x20 qty2; 150x20 qty2 mm.
+; Actual kerf must match 0.250 mm; do not add compensation.
+; START MODE: F436.36 S1000 P1; verify on offcut from THIS sheet first.
+G21
+G90
+G94
+M5
+; SIDE_230_A final 230.0x20.0 mm
+G0 X5.000 Y5.000
+M4 S1000
+G1 F436.36
+G1 X235.250 Y5.000
+G1 X235.250 Y25.250
+G1 X5.000 Y25.250
+G1 X5.000 Y5.000
+M5
+; SIDE_150_A final 150.0x20.0 mm
+G0 X244.000 Y5.000
+M4 S1000
+G1 F436.36
+G1 X394.250 Y5.000
+G1 X394.250 Y25.250
+G1 X244.000 Y25.250
+G1 X244.000 Y5.000
+M5
+; SIDE_230_B final 230.0x20.0 mm
+G0 X5.000 Y36.000
+M4 S1000
+G1 F436.36
+G1 X235.250 Y36.000
+G1 X235.250 Y56.250
+G1 X5.000 Y56.250
+G1 X5.000 Y36.000
+M5
+; SIDE_150_B final 150.0x20.0 mm
+G0 X244.000 Y36.000
+M4 S1000
+G1 F436.36
+G1 X394.250 Y36.000
+G1 X394.250 Y56.250
+G1 X244.000 Y56.250
+G1 X244.000 Y36.000
+M5
+G0 X0 Y0
+M5

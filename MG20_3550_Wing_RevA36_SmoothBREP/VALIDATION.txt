@@ -1,0 +1,16 @@
+MG20 3550 WING REV A.36 — VALIDATION
+=====================================
+Base: A.35
+STEP complete: PASS
+STEP round-trip import: PASS
+Root assembly: MG20_WING_A36_SMOOTH_BREP
+Ailerons: full 1.0 mm balsa upper/lower sheeting
+Old aileron film removed: PASS
+Separate aileron D-box skins/web removed: PASS
+14 aileron ribs rebuilt for 1.05 mm skin seat: PASS
+Balsa density round-trip: PASS (0.00016 g/mm3)
+Calculated full-skin mass: 19.04 g
+FACETED_BREP: 0
+TRIANGULATED_FACE_SET: 0
+TESSELLATED_SOLID: 0
+OVERALL: PASS

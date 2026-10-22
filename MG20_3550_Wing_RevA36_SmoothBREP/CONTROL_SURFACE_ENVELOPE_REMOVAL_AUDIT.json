@@ -1,0 +1,16 @@
+{
+  "revision": "A.35",
+  "base_revision": "A.34",
+  "status": "PASS",
+  "remaining_reference_envelopes": [],
+  "remaining_old_envelope_names": [],
+  "required_real_control_surface_parts_missing": [],
+  "forbidden_faceted_entities": {
+    "FACETED_BREP": 0,
+    "TRIANGULATED_FACE_SET": 0,
+    "TESSELLATED_SOLID": 0
+  },
+  "simple_shape_count": 345,
+  "component_count": 373,
+  "step_size_mb": 69.44519519805908
+}
