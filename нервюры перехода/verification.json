@@ -1,0 +1,190 @@
+{
+  "status": "GEOMETRY_PASS",
+  "structural_strength_verified": false,
+  "station_count": 5,
+  "pieces_per_console": 10,
+  "stock_mm": [
+    297,
+    420,
+    3
+  ],
+  "kerf_mm": 0.2,
+  "feed_mm_min": 232.8,
+  "power_S": 1000,
+  "passes": 1,
+  "nominal_mass_one_console_g": 31.869156161934974,
+  "rib_details": [
+    {
+      "part": "O0350-FWD",
+      "station_mm": 350,
+      "thickness_mm": 3,
+      "area_mm2": 1242.5225884905792,
+      "min_clearance_mm": 0.1994439612052253,
+      "nominal_bounds": [
+        4.0,
+        -8.100720646673704,
+        71.11400748938071,
+        18.4689076054247
+      ]
+    },
+    {
+      "part": "O0350-AFT",
+      "station_mm": 350,
+      "thickness_mm": 3,
+      "area_mm2": 1591.3835754208433,
+      "min_clearance_mm": 0.1999999999999993,
+      "nominal_bounds": [
+        93.36249955287279,
+        -8.670717234802515,
+        168.84986891236926,
+        20.384437929610552
+      ]
+    },
+    {
+      "part": "O0385-FWD",
+      "station_mm": 385,
+      "thickness_mm": 3,
+      "area_mm2": 1279.7411252266318,
+      "min_clearance_mm": 0.1999135722519727,
+      "nominal_bounds": [
+        4.0,
+        -7.890521152916369,
+        70.5035468966537,
+        18.3090612201537
+      ]
+    },
+    {
+      "part": "O0385-AFT",
+      "station_mm": 385,
+      "thickness_mm": 3,
+      "area_mm2": 2144.6294977192297,
+      "min_clearance_mm": 0.19858677851289605,
+      "nominal_bounds": [
+        92.02737899915097,
+        -8.590660735844349,
+        232.15211,
+        20.132022280159788
+      ]
+    },
+    {
+      "part": "O0405-FWD",
+      "station_mm": 405,
+      "thickness_mm": 3,
+      "area_mm2": 1284.4957754600089,
+      "min_clearance_mm": 0.19992331632040639,
+      "nominal_bounds": [
+        4.0,
+        -7.764175752500464,
+        70.15436711001924,
+        18.208745462041797
+      ]
+    },
+    {
+      "part": "O0405-AFT",
+      "station_mm": 405,
+      "thickness_mm": 3,
+      "area_mm2": 2140.3556830692164,
+      "min_clearance_mm": 0.19842577439804568,
+      "nominal_bounds": [
+        91.26442701718871,
+        -8.543631015530016,
+        230.56338,
+        19.981341223712704
+      ]
+    },
+    {
+      "part": "O0500-FWD",
+      "station_mm": 500,
+      "thickness_mm": 3,
+      "area_mm2": 1234.0716155203838,
+      "min_clearance_mm": 0.2000006531626042,
+      "nominal_bounds": [
+        4.0,
+        -7.160859064786431,
+        67.39508225210787,
+        17.503425763647805
+      ]
+    },
+    {
+      "part": "O0500-AFT",
+      "station_mm": 500,
+      "thickness_mm": 3,
+      "area_mm2": 1671.8003973338311,
+      "min_clearance_mm": 0.20000951975116266,
+      "nominal_bounds": [
+        88.74109504646317,
+        -8.183275583055863,
+        166.72301408450704,
+        19.14444552287841
+      ]
+    },
+    {
+      "part": "O0640-FWD",
+      "station_mm": 640,
+      "thickness_mm": 3,
+      "area_mm2": 1094.3777418364161,
+      "min_clearance_mm": 0.20000365938537357,
+      "nominal_bounds": [
+        4.0,
+        -6.309125895173176,
+        65.45107535862911,
+        16.174756064978418
+      ]
+    },
+    {
+      "part": "O0640-AFT",
+      "station_mm": 640,
+      "thickness_mm": 3,
+      "area_mm2": 1492.4106484633226,
+      "min_clearance_mm": 0.20000951975116268,
+      "nominal_bounds": [
+        82.8759740781359,
+        -7.404385526681551,
+        158.15974647887325,
+        17.789116607987914
+      ]
+    }
+  ],
+  "station_details": [
+    {
+      "station_mm": 350,
+      "parts": 2,
+      "material": "birch plywood",
+      "thickness_mm": 3,
+      "spar_envelope_xmin": 60.07633802816901,
+      "spar_envelope_xmax": 104.38825352112676
+    },
+    {
+      "station_mm": 385,
+      "parts": 2,
+      "material": "birch plywood",
+      "thickness_mm": 3,
+      "spar_envelope_xmin": 62.41866319905486,
+      "spar_envelope_xmax": 100.11226290360946
+    },
+    {
+      "station_mm": 405,
+      "parts": 2,
+      "material": "birch plywood",
+      "thickness_mm": 3,
+      "spar_envelope_xmin": 63.834971430917825,
+      "spar_envelope_xmax": 97.58382290293227
+    },
+    {
+      "station_mm": 500,
+      "parts": 2,
+      "material": "birch plywood",
+      "thickness_mm": 3,
+      "spar_envelope_xmin": 67.59508290527047,
+      "spar_envelope_xmax": 88.54108552671201
+    },
+    {
+      "station_mm": 640,
+      "parts": 2,
+      "material": "birch plywood",
+      "thickness_mm": 3,
+      "spar_envelope_xmin": 65.65107901801449,
+      "spar_envelope_xmax": 82.67596455838473
+    }
+  ]
+}

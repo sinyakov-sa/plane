@@ -1,0 +1,37 @@
+{
+  "units": "mm",
+  "wing_area_nominal_mm2": 850225.0,
+  "wing_MAC_mm": 246.41753653444675,
+  "wing_AC_y": 77.5,
+  "H_span": 1000,
+  "H_chord_root": 200,
+  "H_chord_tip": 120,
+  "H_LE_sweep": 56,
+  "H_area_gross_mm2": 160000,
+  "H_arm": 800,
+  "H_volume": 0.6109483373971739,
+  "H_LE_y": 811.00000003,
+  "V_height": 420,
+  "V_root_z": 25,
+  "V_chord_root": 300,
+  "V_chord_tip": 180,
+  "V_LE_sweep": 120,
+  "V_area_gross_mm2": 100800,
+  "V_arm": 900,
+  "V_volume": 0.030056666855790865,
+  "V_LE_y": 861.250000075,
+  "profile": "NACA0010 finite TE",
+  "frame_parts": 57,
+  "checks": {
+    "MG20_Tail_RevA_Envelope.step": {
+      "solids": 5,
+      "all_valid": true,
+      "volume_mm3": 3421961.8208016125
+    },
+    "MG20_Tail_RevA_Frame.step": {
+      "solids": 96,
+      "all_valid": true,
+      "volume_mm3": 368382.6589290022
+    }
+  }
+}

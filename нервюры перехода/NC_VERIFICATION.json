@@ -1,0 +1,14 @@
+{
+  "01_RIBS_ONE_CONSOLE_PLY3.nc": {
+    "closed_valid_contours": 10,
+    "laser_off_on_rapid": true,
+    "sheet_bounds_ok": true,
+    "no_overlap": true
+  },
+  "00_FIT_TESTS_PLY3.nc": {
+    "closed_valid_contours": 7,
+    "laser_off_on_rapid": true,
+    "sheet_bounds_ok": true,
+    "no_overlap": true
+  }
+}
