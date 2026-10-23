@@ -1,0 +1,155 @@
+{
+  "verification": "OpenCascade STEP reimport; KOMPAS GUI not available",
+  "files": [
+    {
+      "file": "step/HS_R_Fixed_AP203.step",
+      "solid_count": 1,
+      "volume_mm3": 758404.56,
+      "valid_OCCT": true,
+      "bounds_mm": [
+        -0.0,
+        -0.0,
+        -10.001,
+        139.0,
+        500.0,
+        10.001
+      ],
+      "file_bytes": 470279
+    },
+    {
+      "file": "step/HS_R_Fixed_AP214IS.step",
+      "solid_count": 1,
+      "volume_mm3": 758404.56,
+      "valid_OCCT": true,
+      "bounds_mm": [
+        -0.0,
+        -0.0,
+        -10.001,
+        139.0,
+        500.0,
+        10.001
+      ],
+      "file_bytes": 468708
+    },
+    {
+      "file": "step/MG20_RevC_Airfoil_6Solids.step",
+      "solid_count": 6,
+      "volume_mm3": 3250295.205,
+      "valid_OCCT": true,
+      "bounds_mm": [
+        -0.0,
+        -500.0,
+        -10.001,
+        300.0,
+        500.0,
+        435.0
+      ],
+      "file_bytes": 2922347
+    },
+    {
+      "file": "step/MG20_RevC_Skeleton.step",
+      "solid_count": 44,
+      "volume_mm3": 184251.403,
+      "valid_OCCT": true,
+      "bounds_mm": [
+        0.857,
+        -500.0,
+        -9.874,
+        300.0,
+        500.0,
+        435.0
+      ],
+      "file_bytes": 24717159
+    },
+    {
+      "file": "step/skins/HS_L_Elevator.step",
+      "solid_count": 1,
+      "volume_mm3": 115784.452,
+      "valid_OCCT": true,
+      "bounds_mm": [
+        125.0,
+        -500.0,
+        -5.901,
+        198.8,
+        -15.0,
+        5.901
+      ],
+      "file_bytes": 470934
+    },
+    {
+      "file": "step/skins/HS_L_Fixed.step",
+      "solid_count": 1,
+      "volume_mm3": 758404.56,
+      "valid_OCCT": true,
+      "bounds_mm": [
+        -0.0,
+        -500.0,
+        -10.001,
+        139.0,
+        0.0,
+        10.001
+      ],
+      "file_bytes": 469262
+    },
+    {
+      "file": "step/skins/HS_R_Elevator.step",
+      "solid_count": 1,
+      "volume_mm3": 115784.452,
+      "valid_OCCT": true,
+      "bounds_mm": [
+        125.0,
+        15.0,
+        -5.901,
+        198.8,
+        500.0,
+        5.901
+      ],
+      "file_bytes": 469822
+    },
+    {
+      "file": "step/skins/HS_R_Fixed.step",
+      "solid_count": 1,
+      "volume_mm3": 758404.56,
+      "valid_OCCT": true,
+      "bounds_mm": [
+        -0.0,
+        -0.0,
+        -10.001,
+        139.0,
+        500.0,
+        10.001
+      ],
+      "file_bytes": 468706
+    },
+    {
+      "file": "step/skins/VS_Fin.step",
+      "solid_count": 1,
+      "volume_mm3": 1292830.918,
+      "valid_OCCT": true,
+      "bounds_mm": [
+        -0.0,
+        -13.502,
+        15.0,
+        245.0,
+        13.502,
+        435.0
+      ],
+      "file_bytes": 469570
+    },
+    {
+      "file": "step/skins/VS_Rudder.step",
+      "solid_count": 1,
+      "volume_mm3": 209086.264,
+      "valid_OCCT": true,
+      "bounds_mm": [
+        211.0,
+        -8.101,
+        15.0,
+        300.0,
+        8.101,
+        435.0
+      ],
+      "file_bytes": 469969
+    }
+  ]
+}

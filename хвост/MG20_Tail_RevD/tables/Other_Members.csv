@@ -1,0 +1,51 @@
+﻿name,type,stock,length_mm,note
+HS_L_MAIN_UP_CAP,cap,5x4 mm nominal,500,nominal shaped cap; strength unverified
+HS_L_MAIN_DOWN_CAP,cap,5x4 mm nominal,500,nominal shaped cap; strength unverified
+HS_L_REAR_UP_CAP,cap,3x3 mm nominal,500,nominal shaped cap; strength unverified
+HS_L_REAR_DOWN_CAP,cap,3x3 mm nominal,500,nominal shaped cap; strength unverified
+HS_L_BalsaNose,leading edge,profiled solid balsa,500,custom shaping; not laser-cut
+HS_R_MAIN_UP_CAP,cap,5x4 mm nominal,500,nominal shaped cap; strength unverified
+HS_R_MAIN_DOWN_CAP,cap,5x4 mm nominal,500,nominal shaped cap; strength unverified
+HS_R_REAR_UP_CAP,cap,3x3 mm nominal,500,nominal shaped cap; strength unverified
+HS_R_REAR_DOWN_CAP,cap,3x3 mm nominal,500,nominal shaped cap; strength unverified
+HS_R_BalsaNose,leading edge,profiled solid balsa,500,custom shaping; not laser-cut
+VS_MAIN_UP_CAP,cap,5x4 mm nominal,420,nominal shaped cap; strength unverified
+VS_MAIN_DOWN_CAP,cap,5x4 mm nominal,420,nominal shaped cap; strength unverified
+VS_REAR_UP_CAP,cap,3x3 mm nominal,420,nominal shaped cap; strength unverified
+VS_REAR_DOWN_CAP,cap,3x3 mm nominal,420,nominal shaped cap; strength unverified
+VS_BalsaNose,leading edge,profiled solid balsa,420,custom shaping; not laser-cut
+EL_L_BevelNose,control leading edge,profiled balsa bevel,485,bevel nose; motion clearance checked sectionally
+EL_R_BevelNose,control leading edge,profiled balsa bevel,485,bevel nose; motion clearance checked sectionally
+RUD_BevelNose,control leading edge,profiled balsa bevel,420,bevel nose; motion clearance checked sectionally
+HS_L_MAIN_WEB_01,shear web,birch plywood 2 mm,27.5,trial cut; grain along span preferred; butt joint to ribs
+HS_L_MAIN_WEB_02,shear web,birch plywood 2 mm,133.0,trial cut; grain along span preferred; butt joint to ribs
+HS_L_MAIN_WEB_03,shear web,birch plywood 2 mm,97.5,trial cut; grain along span preferred; butt joint to ribs
+HS_L_MAIN_WEB_04,shear web,birch plywood 2 mm,97.5,trial cut; grain along span preferred; butt joint to ribs
+HS_L_MAIN_WEB_05,shear web,birch plywood 2 mm,103.0,trial cut; grain along span preferred; butt joint to ribs
+HS_L_REAR_WEB_01,shear web,birch plywood 2 mm,27.5,trial cut; grain along span preferred; butt joint to ribs
+HS_L_REAR_WEB_02,shear web,birch plywood 2 mm,133.0,trial cut; grain along span preferred; butt joint to ribs
+HS_L_REAR_WEB_03,shear web,birch plywood 2 mm,97.5,trial cut; grain along span preferred; butt joint to ribs
+HS_L_REAR_WEB_04,shear web,birch plywood 2 mm,97.5,trial cut; grain along span preferred; butt joint to ribs
+HS_L_REAR_WEB_05,shear web,birch plywood 2 mm,103.0,trial cut; grain along span preferred; butt joint to ribs
+HS_R_MAIN_WEB_01,shear web,birch plywood 2 mm,103.0,trial cut; grain along span preferred; butt joint to ribs
+HS_R_MAIN_WEB_02,shear web,birch plywood 2 mm,97.5,trial cut; grain along span preferred; butt joint to ribs
+HS_R_MAIN_WEB_03,shear web,birch plywood 2 mm,97.5,trial cut; grain along span preferred; butt joint to ribs
+HS_R_MAIN_WEB_04,shear web,birch plywood 2 mm,133.0,trial cut; grain along span preferred; butt joint to ribs
+HS_R_MAIN_WEB_05,shear web,birch plywood 2 mm,27.5,trial cut; grain along span preferred; butt joint to ribs
+HS_R_REAR_WEB_01,shear web,birch plywood 2 mm,103.0,trial cut; grain along span preferred; butt joint to ribs
+HS_R_REAR_WEB_02,shear web,birch plywood 2 mm,97.5,trial cut; grain along span preferred; butt joint to ribs
+HS_R_REAR_WEB_03,shear web,birch plywood 2 mm,97.5,trial cut; grain along span preferred; butt joint to ribs
+HS_R_REAR_WEB_04,shear web,birch plywood 2 mm,133.0,trial cut; grain along span preferred; butt joint to ribs
+HS_R_REAR_WEB_05,shear web,birch plywood 2 mm,27.5,trial cut; grain along span preferred; butt joint to ribs
+VS_MAIN_WEB_01,shear web,birch plywood 2 mm,75.0,trial cut; grain along span preferred; butt joint to ribs
+VS_MAIN_WEB_02,shear web,birch plywood 2 mm,77.5,trial cut; grain along span preferred; butt joint to ribs
+VS_MAIN_WEB_03,shear web,birch plywood 2 mm,77.5,trial cut; grain along span preferred; butt joint to ribs
+VS_MAIN_WEB_04,shear web,birch plywood 2 mm,77.5,trial cut; grain along span preferred; butt joint to ribs
+VS_MAIN_WEB_05,shear web,birch plywood 2 mm,52.5,trial cut; grain along span preferred; butt joint to ribs
+VS_MAIN_WEB_06,shear web,birch plywood 2 mm,27.5,trial cut; grain along span preferred; butt joint to ribs
+VS_REAR_WEB_01,shear web,birch plywood 2 mm,75.0,trial cut; grain along span preferred; butt joint to ribs
+VS_REAR_WEB_02,shear web,birch plywood 2 mm,77.5,trial cut; grain along span preferred; butt joint to ribs
+VS_REAR_WEB_03,shear web,birch plywood 2 mm,77.5,trial cut; grain along span preferred; butt joint to ribs
+VS_REAR_WEB_04,shear web,birch plywood 2 mm,77.5,trial cut; grain along span preferred; butt joint to ribs
+VS_REAR_WEB_05,shear web,birch plywood 2 mm,52.5,trial cut; grain along span preferred; butt joint to ribs
+VS_REAR_WEB_06,shear web,birch plywood 2 mm,27.5,trial cut; grain along span preferred; butt joint to ribs

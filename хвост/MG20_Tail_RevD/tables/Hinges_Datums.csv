@@ -1,0 +1,10 @@
+﻿part,x_mm,y_mm,z_mm,nominal_axis,note
+HS_L_HINGE_AXIS_120,140,-120,0,axis Y,pin marker only; hardware not specified
+HS_L_HINGE_AXIS_320,140,-320,0,axis Y,pin marker only; hardware not specified
+HS_L_HINGE_AXIS_455,140,-455,0,axis Y,pin marker only; hardware not specified
+HS_R_HINGE_AXIS_120,140,120,0,axis Y,pin marker only; hardware not specified
+HS_R_HINGE_AXIS_320,140,320,0,axis Y,pin marker only; hardware not specified
+HS_R_HINGE_AXIS_455,140,455,0,axis Y,pin marker only; hardware not specified
+VS_HINGE_AXIS_095,210,0,95,axis Z,pin marker only; hardware not specified
+VS_HINGE_AXIS_255,210,0,255,axis Z,pin marker only; hardware not specified
+VS_HINGE_AXIS_390,210,0,390,axis Z,pin marker only; hardware not specified

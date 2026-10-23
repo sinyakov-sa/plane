@@ -1,0 +1,96 @@
+{
+  "revision": "RevD",
+  "ribs": 38,
+  "webs": 32,
+  "caps": 12,
+  "nose_segments": 6,
+  "modeled_structural_parts": 88,
+  "hinge_datums": 9,
+  "step_files": 11,
+  "motion_section_samples": 2050,
+  "min_section_clearance_mm": 1.663,
+  "max_section_overlap_mm2": 0.0,
+  "scope": "cross-section surface check only; not hardware, not aeroelastic or full 3D clearance",
+  "readback": "OCCT readback; KOMPAS not tested",
+  "step_results": [
+    {
+      "path": "step/HS_L_Elevator.step",
+      "n_solids": 1,
+      "volume_mm3": 88418.34,
+      "occt_valid": true,
+      "file_bytes": 854303
+    },
+    {
+      "path": "step/HS_L_Fixed.step",
+      "n_solids": 1,
+      "volume_mm3": 758584.81,
+      "occt_valid": true,
+      "file_bytes": 852363
+    },
+    {
+      "path": "step/HS_R_Elevator.step",
+      "n_solids": 1,
+      "volume_mm3": 88418.34,
+      "occt_valid": true,
+      "file_bytes": 852311
+    },
+    {
+      "path": "step/HS_R_Fixed.step",
+      "n_solids": 1,
+      "volume_mm3": 758584.81,
+      "occt_valid": true,
+      "file_bytes": 851367
+    },
+    {
+      "path": "step/MG20_RevD_Envelope_6Solids.step",
+      "n_solids": 6,
+      "volume_mm3": 3147146.9,
+      "occt_valid": true,
+      "file_bytes": 5242842
+    },
+    {
+      "path": "step/MG20_RevD_Hinge_Datums_ONLY.step",
+      "n_solids": 9,
+      "volume_mm3": 217.15,
+      "occt_valid": true,
+      "file_bytes": 53689
+    },
+    {
+      "path": "step/MG20_RevD_Structure.step",
+      "n_solids": 88,
+      "volume_mm3": 502203.6,
+      "occt_valid": true,
+      "file_bytes": 50981233
+    },
+    {
+      "path": "step/VS_Fin.step",
+      "n_solids": 1,
+      "volume_mm3": 1293139.02,
+      "occt_valid": true,
+      "file_bytes": 852984
+    },
+    {
+      "path": "step/VS_Rudder.step",
+      "n_solids": 1,
+      "volume_mm3": 160001.59,
+      "occt_valid": true,
+      "file_bytes": 852621
+    },
+    {
+      "path": "step/HS_R_Fixed_AP203_DIAGNOSTIC.step",
+      "n_solids": 1,
+      "volume_mm3": 758584.81,
+      "occt_valid": true,
+      "file_bytes": 853049,
+      "status": "independent STEP readback confirmed"
+    },
+    {
+      "path": "step/HS_R_Fixed_AP214IS_DIAGNOSTIC.step",
+      "n_solids": 1,
+      "volume_mm3": 758584.81,
+      "occt_valid": true,
+      "file_bytes": 851404,
+      "status": "independent STEP readback confirmed"
+    }
+  ]
+}

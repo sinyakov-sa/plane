@@ -26,12 +26,22 @@
     "MG20_Tail_RevA_Envelope.step": {
       "solids": 5,
       "all_valid": true,
-      "volume_mm3": 3421961.8208016125
+      "volume_mm3": 3421929.628854274
     },
     "MG20_Tail_RevA_Frame.step": {
       "solids": 96,
       "all_valid": true,
-      "volume_mm3": 368382.6589290022
+      "volume_mm3": 368385.29462760955
+    },
+    "MG20_Tail_RevA_Envelope_FLAT.step": {
+      "solids": 5,
+      "all_valid": true,
+      "volume_mm3": 3421929.628854274
+    },
+    "MG20_Tail_RevA_Frame_FLAT.step": {
+      "solids": 96,
+      "all_valid": true,
+      "volume_mm3": 368385.29462760955
     }
   }
 }

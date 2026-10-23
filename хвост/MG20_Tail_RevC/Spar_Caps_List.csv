@@ -1,0 +1,13 @@
+﻿location,spar,surface,stock_mm,nominal_length_mm,qty,note
+HS left,main,upper/right,5 x 4,500,1,preliminary; strength and stock to be confirmed
+HS left,main,lower/left,5 x 4,500,1,preliminary; strength and stock to be confirmed
+HS left,rear,upper/right,3 x 3,500,1,preliminary; strength and stock to be confirmed
+HS left,rear,lower/left,3 x 3,500,1,preliminary; strength and stock to be confirmed
+HS right,main,upper/right,5 x 4,500,1,preliminary; strength and stock to be confirmed
+HS right,main,lower/left,5 x 4,500,1,preliminary; strength and stock to be confirmed
+HS right,rear,upper/right,3 x 3,500,1,preliminary; strength and stock to be confirmed
+HS right,rear,lower/left,3 x 3,500,1,preliminary; strength and stock to be confirmed
+VS,main,upper/right,5 x 4,420,1,preliminary; strength and stock to be confirmed
+VS,main,lower/left,5 x 4,420,1,preliminary; strength and stock to be confirmed
+VS,rear,upper/right,3 x 3,420,1,preliminary; strength and stock to be confirmed
+VS,rear,lower/left,3 x 3,420,1,preliminary; strength and stock to be confirmed

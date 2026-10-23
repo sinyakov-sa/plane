@@ -1,5 +1,6 @@
 import cadquery as cq, numpy as np, json, math
 from pathlib import Path
+from export_kompas import export_kompas
 P=Path(__file__).resolve().parent
 # Coordinates match wing source: X span, Y aft, Z up, mm.
 B=3550.; cr=310.; ct=169.
@@ -36,7 +37,7 @@ fixedV=V.cut(vmask(194,236)); rudder=V.intersect(vmask(196,238))
 envelopes={'H_stabilizer':fixedH,'Elevator_L':EL,'Elevator_R':ER,'V_fin':fixedV,'Rudder':rudder}
 A=cq.Assembly(name='MG20_Tail_RevA_ENVELOPES')
 for i,(n,s) in enumerate(envelopes.items()):A.add(s,name=n,color=cq.Color(*[(.83,.73,.48),(.2,.55,.8),(.2,.55,.8),(.83,.73,.48),(.2,.55,.8)][i]))
-A.save(str(P/'MG20_Tail_RevA_Envelope.step'))
+export_kompas(A, P/'MG20_Tail_RevA_Envelope.step')
 # Concept structure: independent full-depth ribs and spars, ribs trimmed to spars.
 parts=[]
 def add(name,shape,material):
@@ -79,10 +80,10 @@ for name,env in envelopes.items():
    add(f'{name}_rib_{z}',rib,'birch_plywood' if z==27 else 'balsa')
 F=cq.Assembly(name='MG20_Tail_RevA_FRAME_CONCEPT')
 for n,s,m in parts:F.add(s,name=n,color=cq.Color(*((.85,.73,.48) if m=='balsa' else (.55,.36,.19))))
-F.save(str(P/'MG20_Tail_RevA_Frame.step'))
+export_kompas(F, P/'MG20_Tail_RevA_Frame.step')
 # STEP round-trip checks.
 checks={}
-for file in ['MG20_Tail_RevA_Envelope.step','MG20_Tail_RevA_Frame.step']:
+for file in ['MG20_Tail_RevA_Envelope.step','MG20_Tail_RevA_Frame.step','MG20_Tail_RevA_Envelope_FLAT.step','MG20_Tail_RevA_Frame_FLAT.step']:
  shapes=cq.importers.importStep(str(P/file)).solids().vals();checks[file]={'solids':len(shapes),'all_valid':all(s.isValid() for s in shapes),'volume_mm3':sum(s.Volume() for s in shapes)}
  assert checks[file]['all_valid'] and shapes
 params={'units':'mm','wing_area_nominal_mm2':S,'wing_MAC_mm':MAC,'wing_AC_y':77.5,'H_span':1000,'H_chord_root':200,'H_chord_tip':120,'H_LE_sweep':56,'H_area_gross_mm2':160000,'H_arm':800,'H_volume':160000*800/(S*MAC),'H_LE_y':HLE,'V_height':420,'V_root_z':25,'V_chord_root':300,'V_chord_tip':180,'V_LE_sweep':120,'V_area_gross_mm2':100800,'V_arm':900,'V_volume':100800*900/(S*B),'V_LE_y':VLE,'profile':'NACA0010 finite TE','frame_parts':len(parts),'checks':checks}

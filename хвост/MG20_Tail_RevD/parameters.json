@@ -1,0 +1,72 @@
+{
+  "hs_span": 1000,
+  "hs_root_c": 200,
+  "hs_tip_c": 120,
+  "hs_tip_le": 56,
+  "vs_zmin": 15,
+  "vs_zmax": 435,
+  "vs_root_c": 300,
+  "vs_tip_c": 180,
+  "vs_tip_le": 84,
+  "hs_t": 0.1,
+  "vs_t": 0.09,
+  "hinge_fraction": 0.7,
+  "gap": 2,
+  "elevator_centre_gap": 30,
+  "hs_hinge_x": 140,
+  "vs_hinge_x": 210,
+  "hs_max_deflection_deg": 25,
+  "vs_max_deflection_deg": 30,
+  "elevator_le_bevel_fraction": 0.08,
+  "main_cap_fraction": 0.3,
+  "rear_cap_fraction": 0.57,
+  "main_cap_size": [
+    5,
+    4
+  ],
+  "rear_cap_size": [
+    3,
+    3
+  ],
+  "cap_skin_allowance": 0.35,
+  "web_ply_thickness": 2,
+  "notch_clearance_nominal": 0.2,
+  "balsa_rib_thickness": 3,
+  "ply_rib_thickness": 2,
+  "hs_fixed_stations": [
+    15,
+    120,
+    220,
+    320,
+    455,
+    485
+  ],
+  "hs_control_stations": [
+    35,
+    120,
+    220,
+    320,
+    455,
+    485
+  ],
+  "vs_rib_stations": [
+    18,
+    95,
+    175,
+    255,
+    335,
+    390,
+    420
+  ],
+  "hs_hinge_stations": [
+    120,
+    320,
+    455
+  ],
+  "vs_hinge_stations": [
+    95,
+    255,
+    390
+  ],
+  "fixed_nose_fraction": 0.08
+}

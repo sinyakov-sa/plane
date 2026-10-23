@@ -1,0 +1,33 @@
+﻿part,station_mm,axis,nominal_chord_mm,material,material_thickness_mm,quantity
+HS fixed root,-15,H,197.6,ply2,2,1
+HS fixed root,15,H,197.6,ply2,2,1
+VS fixed root,18,V,299.14,ply2,2,1
+HS fixed,-485,H,122.4,balsa3,3,1
+HS fixed,-360,H,142.4,balsa3,3,1
+HS fixed,-240,H,161.6,balsa3,3,1
+HS fixed,-120,H,180.8,balsa3,3,1
+HS fixed,120,H,180.8,balsa3,3,1
+HS fixed,240,H,161.6,balsa3,3,1
+HS fixed,360,H,142.4,balsa3,3,1
+HS fixed,485,H,122.4,balsa3,3,1
+VS fixed,95,V,277.14,balsa3,3,1
+VS fixed,175,V,254.29,balsa3,3,1
+VS fixed,255,V,231.43,balsa3,3,1
+VS fixed,335,V,208.57,balsa3,3,1
+VS fixed,420,V,184.29,balsa3,3,1
+HS elevator,-485,H,122.4,balsa2,2,1
+HS elevator,-385,H,138.4,balsa2,2,1
+HS elevator,-265,H,157.6,balsa2,2,1
+HS elevator,-145,H,176.8,balsa2,2,1
+HS elevator,-35,H,194.4,balsa2,2,1
+HS elevator,35,H,194.4,balsa2,2,1
+HS elevator,145,H,176.8,balsa2,2,1
+HS elevator,265,H,157.6,balsa2,2,1
+HS elevator,385,H,138.4,balsa2,2,1
+HS elevator,485,H,122.4,balsa2,2,1
+VS rudder,18,V,299.14,balsa2,2,1
+VS rudder,95,V,277.14,balsa2,2,1
+VS rudder,175,V,254.29,balsa2,2,1
+VS rudder,255,V,231.43,balsa2,2,1
+VS rudder,335,V,208.57,balsa2,2,1
+VS rudder,420,V,184.29,balsa2,2,1

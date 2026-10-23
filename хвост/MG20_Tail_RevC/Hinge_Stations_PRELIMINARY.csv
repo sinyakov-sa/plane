@@ -1,0 +1,10 @@
+﻿surface,x_mm,y_mm,z_mm,hinge_axis,verification
+elevator,125.44,-455,0,spanwise Y,preliminary; check deflection and loads
+elevator,131.04,-280,0,spanwise Y,preliminary; check deflection and loads
+elevator,136.96,-95,0,spanwise Y,preliminary; check deflection and loads
+elevator,136.96,95,0,spanwise Y,preliminary; check deflection and loads
+elevator,131.04,280,0,spanwise Y,preliminary; check deflection and loads
+elevator,125.44,455,0,spanwise Y,preliminary; check deflection and loads
+rudder,216.0,0,85,vertical Z,preliminary; check deflection and loads
+rudder,228.0,0,225,vertical Z,preliminary; check deflection and loads
+rudder,242.14,0,390,vertical Z,preliminary; check deflection and loads

@@ -1,0 +1,50 @@
+{
+  "MG20_Tail_RevA_Envelope.step": {
+    "solids": 5,
+    "valid": true,
+    "max_bbox_difference_mm": 0.0,
+    "max_relative_volume_difference": 1.2043919365655382e-05,
+    "entities": {
+      "PCURVE": 0,
+      "SURFACE_CURVE": 0,
+      "MANIFOLD_SOLID_BREP": 5,
+      "NEXT_ASSEMBLY_USAGE_OCCURRENCE": 5
+    }
+  },
+  "MG20_Tail_RevA_Envelope_FLAT.step": {
+    "solids": 5,
+    "valid": true,
+    "max_bbox_difference_mm": 0.0,
+    "max_relative_volume_difference": 1.2043919383489476e-05,
+    "entities": {
+      "PCURVE": 0,
+      "SURFACE_CURVE": 0,
+      "MANIFOLD_SOLID_BREP": 5,
+      "NEXT_ASSEMBLY_USAGE_OCCURRENCE": 0
+    }
+  },
+  "MG20_Tail_RevA_Frame.step": {
+    "solids": 96,
+    "valid": true,
+    "max_bbox_difference_mm": 9.094947017729282e-13,
+    "max_relative_volume_difference": 6.153638032944683e-05,
+    "entities": {
+      "PCURVE": 0,
+      "SURFACE_CURVE": 0,
+      "MANIFOLD_SOLID_BREP": 96,
+      "NEXT_ASSEMBLY_USAGE_OCCURRENCE": 96
+    }
+  },
+  "MG20_Tail_RevA_Frame_FLAT.step": {
+    "solids": 96,
+    "valid": true,
+    "max_bbox_difference_mm": 9.094947017729282e-13,
+    "max_relative_volume_difference": 0.0005987484244770187,
+    "entities": {
+      "PCURVE": 0,
+      "SURFACE_CURVE": 0,
+      "MANIFOLD_SOLID_BREP": 96,
+      "NEXT_ASSEMBLY_USAGE_OCCURRENCE": 0
+    }
+  }
+}
